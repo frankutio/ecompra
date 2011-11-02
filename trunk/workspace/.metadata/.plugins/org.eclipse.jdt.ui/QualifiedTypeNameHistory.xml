@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="main.bancoDeDados.Conexao"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="main.telas.TelaIncluir"/>
+<fullyQualifiedTypeName name="main.bancoDeDados.ConexaoDao"/>
+<fullyQualifiedTypeName name="main.bean.ClienteBean"/>
+<fullyQualifiedTypeName name="main.bancoDeDados.ClienteDao"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

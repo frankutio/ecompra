@@ -1,0 +1,90 @@
+package main.bancoDeDados;
+import java.sql.*;
+import java.util.ArrayList;
+
+import main.bean.UsuarioBean;
+
+
+public class Conexao {
+	//dados para conexao com o banco VARIAVEIS
+	private String nomeDriver = "com.mysql.jdbc.Driver";
+	private String url = "jdbc:mysql://localhost:3306/mysql";
+	private String user = "root";
+	private String senha = "root";
+	private Connection conexao;
+	
+	private boolean conectar(){
+			
+		try {
+
+			Class.forName(nomeDriver);
+			conexao = DriverManager.getConnection(url, user, senha);
+			if (conexao != null){
+				
+				System.out.println("conectado");		
+			}
+					
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+			return false;
+		}		
+		return true;
+
+	}
+	private boolean desconectar(){
+		try{			
+			conexao.close();
+			System.out.println("Desconectado");
+			
+		}catch( Exception e ){
+			e.printStackTrace();
+			return false;
+		}
+		return true;
+	}
+	
+	
+	//busca todos usuarios
+	public ArrayList<UsuarioBean> getListaUsuarios(){
+ArrayList<UsuarioBean> retorno = new ArrayList<UsuarioBean>(); 
+		
+		try{
+			conectar();
+			
+			Statement stm = conexao.createStatement();
+			String query = "select * from crud_usuario.tb_usuario";
+			
+			System.out.println( query );
+			
+			ResultSet rs = stm.executeQuery(query);
+			
+			while( rs.next() ){
+				retorno.add(
+					new UsuarioBean(
+						rs.getInt( "id_usuario" ), 
+						rs.getString( "nome" ), 
+						rs.getString( "email" ),
+						rs.getString( "senha" ))
+					);
+			}
+			stm.close();
+		}catch( SQLException e ){
+			e.printStackTrace();
+		}finally{
+			desconectar();
+		}
+		
+		return retorno;
+	}
+	
+	
+
+	//metodo main 
+	public static void main(){
+	
+		//System.out.println("bla");
+		
+	}
+
+}
