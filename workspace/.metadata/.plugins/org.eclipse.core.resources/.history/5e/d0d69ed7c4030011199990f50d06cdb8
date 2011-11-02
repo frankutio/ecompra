@@ -1,0 +1,57 @@
+package main.bean;
+/*
+CREATE  TABLE IF NOT EXISTS `crud_usuario`.`tb_usuario` (
+  `id_usuario` INT NOT NULL AUTO_INCREMENT ,
+  `nome` VARCHAR(100) NOT NULL ,
+  `email` VARCHAR(200) NOT NULL ,
+  `senha` VARCHAR(100) NOT NULL ,
+  PRIMARY KEY (`id_usuario`) )
+)
+
+*/
+public class ClienteBean {
+	
+	private int idUsuario;
+	private String nome;
+	private String email;
+	private String senha;
+	
+	public ClienteBean(){
+		idUsuario = 0;
+		nome = "";
+		email = "";
+		senha = "";
+	}
+	
+	public ClienteBean( int idUsuario, String nome, String email, String senha ){
+		this.idUsuario = idUsuario;
+		this.nome = nome;
+		this.email = email;
+		this.senha = senha;
+	}
+	
+	public int getIdUsuario() {
+		return idUsuario;
+	}
+	public void setIdUsuario(int idUsuario) {
+		this.idUsuario = idUsuario;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getSenha() {
+		return senha;
+	}
+	public void setSenha(String senha) {
+		this.senha= senha;
+	}
+}

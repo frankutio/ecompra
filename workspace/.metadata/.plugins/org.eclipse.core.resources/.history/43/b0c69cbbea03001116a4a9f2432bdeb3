@@ -1,0 +1,32 @@
+package main;
+
+import main.bancoDeDados.ConexaoDao;
+import main.bean.ClienteBean;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		//Criando objeto da class Conexao
+		
+		//Utilizando metodo class Conexao
+		ClienteBean cl = new ClienteBean();
+		cl.setCpf(001);
+		cl.setEmail("t1@teste.com");
+		cl.setEndereco("t1");
+		cl.setSenha("123");
+		
+		ConexaoDao con1 = new ConexaoDao();
+		con1.
+		
+		
+		ConexaoDao.main();
+		//System.out.println("bla");
+		//NOVO DAO
+		
+
+	}
+
+}
