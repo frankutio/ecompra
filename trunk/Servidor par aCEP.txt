@@ -1,0 +1,5 @@
+Servidor para pegar CEP e outros
+
+
+HTTP:CEP.REPUBLICAVIRTUAL.COM.BR/CEP_
+

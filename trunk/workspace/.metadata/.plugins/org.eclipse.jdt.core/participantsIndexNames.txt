@@ -1,3 +1,0 @@
-INDEX VERSION 1.126
-C:\Eclipse\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3839705862.index
-\TEste
