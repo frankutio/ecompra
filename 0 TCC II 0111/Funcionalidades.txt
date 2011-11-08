@@ -1,7 +1,0 @@
-Manter Produto
-Manter Cliente 
-Bloquear Cliente
-Manter Pedido
-Alterar Status Pedido
-Manter Publicidade
-Gerar Relatório
