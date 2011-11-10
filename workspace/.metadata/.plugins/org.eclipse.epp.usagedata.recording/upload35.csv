@@ -1,0 +1,9 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.equinox.jsp.jasper.registry,1.0.100.v20090520-1800,"org.eclipse.equinox.jsp.jasper.registry",1320529666745
+stopped,bundle,org.eclipse.equinox.jsp.jasper,1.0.200.v20090520-1800,"org.eclipse.equinox.jsp.jasper",1320529666746
+stopped,bundle,org.eclipse.datatools.enablement.hsqldb.ui,1.0.0.v200906020900,"org.eclipse.datatools.enablement.hsqldb.ui",1320529666746
+stopped,bundle,org.eclipse.datatools.enablement.ingres.ui,1.0.0.v200906111150,"org.eclipse.datatools.enablement.ingres.ui",1320529666746
+stopped,bundle,org.eclipse.datatools.enablement.postgresql.ui,1.0.0.v200906020900,"org.eclipse.datatools.enablement.postgresql.ui",1320529666746
+stopped,bundle,org.eclipse.datatools.enablement.sqlite.ui,1.0.0.v200906020900,"org.eclipse.datatools.enablement.sqlite.ui",1320529666746
+stopped,bundle,org.eclipse.datatools.connectivity.db.generic.ui,1.0.1.v200906020900,"org.eclipse.datatools.connectivity.db.generic.ui",1320529666746
+stopped,bundle,org.eclipse.datatools.connectivity.apache.derby.ui,1.0.1.v200906020900,"org.eclipse.datatools.connectivity.apache.derby.ui",1320529666754

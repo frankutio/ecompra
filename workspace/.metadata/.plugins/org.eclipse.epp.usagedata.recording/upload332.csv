@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.redo",1320861457597
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.saveAll",1320861502245
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320861506644
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320861956718
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320861964515
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320861975435
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.help.aboutAction",1320861975450
+started,bundle,org.eclipse.help.base,3.4.0.v200909170800,"org.eclipse.help.base",1320861978867
+started,bundle,org.eclipse.help.ui,3.4.1.v20090819_35x,"org.eclipse.help.ui",1320861978898
+started,bundle,org.eclipse.equinox.http.jetty,2.0.0.v20090520-1800,"org.eclipse.equinox.http.jetty",1320861979054
+started,bundle,org.eclipse.equinox.http.servlet,1.0.200.v20090520-1800,"org.eclipse.equinox.http.servlet",1320861979116
+started,bundle,org.eclipse.equinox.http.registry,1.0.200.v20090520-1800,"org.eclipse.equinox.http.registry",1320861979350
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.help.helpContents",1320861979569
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320861979771
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320861985575
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1320861989584
+error,log,,,"Unhandled event loop exception",1320861991830
+error,log,,,"Unhandled event loop exception",1320861996339
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320861997431
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320862000488
+error,log,,,"Unhandled event loop exception",1320862005387
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320862006494
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1320862006525
+error,log,,,"Unhandled event loop exception",1320862009848
+error,log,,,"Unhandled event loop exception",1320862014715

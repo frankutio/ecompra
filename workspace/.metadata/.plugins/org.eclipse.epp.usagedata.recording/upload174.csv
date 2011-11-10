@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1320790445832
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1320790445832
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1320790445832
+java.vm.specification.version,sysinfo,,,"1.7",1320790445832
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1320790445832
+java.vm.version,sysinfo,,,"21.1-b02",1320790445832
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320790451183
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320790478686
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320790478826
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320790499418
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320790608813
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320790608875
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1320790610201
+started,bundle,org.eclipse.jst.jsp.core,1.2.203.v200908241513,"org.eclipse.jst.jsp.core",1320790616410
+started,bundle,org.eclipse.wst.html.core,1.1.300.v200903120608,"org.eclipse.wst.html.core",1320790616410
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320790630840
+started,bundle,org.eclipse.wst.jsdt.core,1.0.201.v200908101420,"org.eclipse.wst.jsdt.core",1320790632010
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.100.v200809240707,"org.eclipse.wst.jsdt.manipulation",1320790632072
+started,bundle,org.eclipse.wst.jsdt.ui,1.0.200.v200905242047,"org.eclipse.wst.jsdt.ui",1320790632088
+started,bundle,org.eclipse.wst.jsdt.web.core,1.0.200.v200905120445,"org.eclipse.wst.jsdt.web.core",1320790632244
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320790633211
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1320790633242
+started,bundle,org.eclipse.wst.dtd.core,1.1.300.v200904181727,"org.eclipse.wst.dtd.core",1320790633632
+started,bundle,org.eclipse.wst.sse.ui,1.1.101.v200908261807,"org.eclipse.wst.sse.ui",1320790633632
+started,bundle,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.ui",1320790633663

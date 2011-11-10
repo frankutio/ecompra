@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Unhandled event loop exception",1320862018054
+error,log,,,"Unhandled event loop exception",1320862022406
+error,log,,,"Unhandled event loop exception",1320862028896
+error,log,,,"Unhandled event loop exception",1320862043981
+error,log,,,"Unhandled event loop exception",1320862047335
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320862048458
+error,log,,,"Unhandled event loop exception",1320862049675
+error,log,,,"An internal error occurred during: ""Compute launch button tooltip"".",1320862049675
+error,log,,,"An internal error has occurred.",1320862053965
+error,log,,,"Unhandled event loop exception",1320862055057
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320862071031
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1320862073262
+error,log,,,"Unhandled event loop exception",1320862100765
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320862122589
+error,log,,,"Unhandled event loop exception",1320862124914
+error,log,,,"Unhandled event loop exception",1320862138657
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320862144695
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320862144788
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320862150716
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1320862152713
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320862152916
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1320862157237
+error,log,,,"Unhandled event loop exception",1320862160778
+error,log,,,"Unhandled event loop exception",1320862167346
+error,log,,,"Unhandled event loop exception",1320862180450

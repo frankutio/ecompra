@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320528203402
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320528225055
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1320528225081
+error,log,,,"Unhandled event loop exception",1320528229225
+error,log,,,"Error occurred during status handling",1320528229227
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320528241328
+error,log,,,"Unhandled event loop exception",1320528243785
+error,log,,,"Error occurred during status handling",1320528243787
+error,log,,,"Unhandled event loop exception",1320528248643
+error,log,,,"Error occurred during status handling",1320528248644
+error,log,,,"Unhandled event loop exception",1320528251116
+error,log,,,"Error occurred during status handling",1320528251118
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320528254084
+executed,command,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.run",1320528257854
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1320528259131
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320528260493
+error,log,,,"Unhandled event loop exception",1320528265431
+error,log,,,"Error occurred during status handling",1320528265433
+error,log,,,"Unhandled event loop exception",1320528267897
+error,log,,,"Error occurred during status handling",1320528267898
+error,log,,,"Unhandled event loop exception",1320528273432
+error,log,,,"Error occurred during status handling",1320528273433
+error,log,,,"Unhandled event loop exception",1320528278396
+error,log,,,"Error occurred during status handling",1320528278397
+error,log,,,"Unhandled event loop exception",1320528288766

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Unhandled event loop exception",1320528339534
+error,log,,,"Error occurred during status handling",1320528339535
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320528351440
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320528363736
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320528368648
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320528391980
+error,log,,,"Unhandled event loop exception",1320528398149
+error,log,,,"Error occurred during status handling",1320528398150
+error,log,,,"Unhandled event loop exception",1320528401279
+error,log,,,"Error occurred during status handling",1320528401281
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320528406949
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320528406958
+error,log,,,"Unhandled event loop exception",1320528411379
+error,log,,,"Error occurred during status handling",1320528411380
+error,log,,,"Unhandled event loop exception",1320528413804
+error,log,,,"Error occurred during status handling",1320528413805
+error,log,,,"Unhandled event loop exception",1320528416259
+error,log,,,"Error occurred during status handling",1320528416260
+error,log,,,"Unhandled event loop exception",1320528418679
+error,log,,,"Error occurred during status handling",1320528418680
+error,log,,,"Unhandled event loop exception",1320528421104
+error,log,,,"Error occurred during status handling",1320528421105
+error,log,,,"Unhandled event loop exception",1320528423592
+error,log,,,"Error occurred during status handling",1320528423593
+error,log,,,"Unhandled event loop exception",1320528426010

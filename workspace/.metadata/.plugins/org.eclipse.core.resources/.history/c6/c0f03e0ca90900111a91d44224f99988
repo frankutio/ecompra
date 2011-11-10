@@ -1,0 +1,37 @@
+package main;
+
+import main.telas.TelaLogin;
+
+
+/** Comandos para criacao do banco de dados e tabela
+
+Primeiro comando:
+CREATE SCHEMA crud_usuario;
+
+Segundo comando:
+CREATE TABLE  `crud_usuario`.`tb_usuario` (
+  `id_usuario` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(100) NOT NULL,
+  `email` varchar(200) NOT NULL,
+  `senha` varchar(100) NOT NULL,
+  PRIMARY KEY (`id_usuario`)
+)
+
+Na classe main.bancoDeDados.UsuarioDao configurar nome de usuario e senha para acesso ao banco.
+
+*/
+
+public class Main{
+	
+	public Main(){
+		TelaLogin.getInstancia().apresenta();
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Main main = new Main();
+	}
+
+}

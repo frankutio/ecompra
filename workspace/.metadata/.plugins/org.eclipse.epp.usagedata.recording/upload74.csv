@@ -1,0 +1,11 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.wst.xsl.debug.ui,1.0.0.v200904240436,"org.eclipse.wst.xsl.debug.ui",1320685850110
+stopped,bundle,org.eclipse.wst.xsl.jaxp.launching,1.0.0.v200904240436,"org.eclipse.wst.xsl.jaxp.launching",1320685850110
+stopped,bundle,org.eclipse.wst.xsl.launching,1.0.0.v200904241348,"org.eclipse.wst.xsl.launching",1320685850110
+stopped,bundle,org.eclipse.wst.xsl.core,1.0.1.v200908101420,"org.eclipse.wst.xsl.core",1320685850110
+stopped,bundle,org.eclipse.datatools.enablement.oda.xml.ui,1.2.0.v200907270953,"org.eclipse.datatools.enablement.oda.xml.ui",1320685850110
+stopped,bundle,org.eclipse.datatools.enablement.oda.xml,1.2.0.v200907061455,"org.eclipse.datatools.enablement.oda.xml",1320685850110
+stopped,bundle,org.eclipse.jst.jsf.apache.trinidad.tagsupport,1.1.0.v20090525,"org.eclipse.jst.jsf.apache.trinidad.tagsupport",1320685850110
+stopped,bundle,org.eclipse.jst.jsf.facesconfig.ui,1.1.5.v20090902,"org.eclipse.jst.jsf.facesconfig.ui",1320685850110
+stopped,bundle,org.eclipse.jst.jsf.ui,1.2.1.v20090827,"org.eclipse.jst.jsf.ui",1320685850110
+stopped,bundle,org.eclipse.jst.pagedesigner.jsf.ui,1.1.3.v20090827,"org.eclipse.jst.pagedesigner.jsf.ui",1320685850110

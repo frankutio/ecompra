@@ -1,0 +1,42 @@
+import java.io.IOException;
+import java.io.PrintWriter;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import main.bean.ClienteBean;
+
+public class InsereCliente extends HttpServlet { 
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) 
+	throws ServletException, IOException {
+		
+		PrintWriter out = response.getWriter();
+	// capturando parametros 
+		String cpf = request.getParameter("cpf"); 
+		//out.println ( cpf );
+		String email= request.getParameter("email"); 
+		//out.println ( email );
+		String senha = request.getParameter("senha"); 
+		//out.println ( senha );
+	
+	//convertendo parametros
+		
+	//instanciando objeto BEAN
+		ClienteBean cliente = new ClienteBean();
+	//	cliente.setCpf(cpf);
+		cliente.setEmail(email);
+		cliente.setSenha(senha);
+		
+	//encaminhando para DAO
+		
+		out.flush();
+		out.close();
+				
+		
+	
+		
+		
+		
+		
+	} 
+}

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320527067595
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320527083138
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320527086665
+started,bundle,org.eclipse.jst.server.core,1.2.0.v20090421,"org.eclipse.jst.server.core",1320527090100
+started,bundle,org.eclipse.jst.server.tomcat.core,1.1.106.v20090814,"org.eclipse.jst.server.tomcat.core",1320527090107
+started,bundle,org.eclipse.jst.server.tomcat.ui,1.1.102.v20090424,"org.eclipse.jst.server.tomcat.ui",1320527090163
+started,bundle,org.eclipse.jst.j2ee.core,1.1.301.v200908181930,"org.eclipse.jst.j2ee.core",1320527090218
+started,bundle,org.eclipse.jem,2.0.300.v200901272200,"org.eclipse.jem",1320527090281
+started,bundle,org.eclipse.jst.jee,1.0.201.v200909030330,"org.eclipse.jst.jee",1320527090481
+started,bundle,org.eclipse.jst.common.project.facet.core,1.4.1.v200908111817,"org.eclipse.jst.common.project.facet.core",1320527091063
+started,bundle,org.eclipse.jpt.core,2.2.1.v200908270220,"org.eclipse.jpt.core",1320527091088
+started,bundle,org.eclipse.jpt.eclipselink.core,1.2.0.v200905310000,"org.eclipse.jpt.eclipselink.core",1320527091115
+started,bundle,org.eclipse.wst.sse.core,1.1.401.v200909172215,"org.eclipse.wst.sse.core",1320527091188
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.1.301.v200908101600,"org.eclipse.wst.common.frameworks.ui",1320527091213
+started,bundle,org.eclipse.wst.xml.core,1.1.401.v200908242115,"org.eclipse.wst.xml.core",1320527091235
+started,bundle,org.eclipse.wst.common.modulecore,1.1.301.v200908101600,"org.eclipse.wst.common.modulecore",1320527091314
+started,bundle,org.eclipse.wst.validation,1.2.102.v200905201610,"org.eclipse.wst.validation",1320527091357
+started,bundle,org.eclipse.jst.j2ee,1.1.301.v200909030330,"org.eclipse.jst.j2ee",1320527091385
+started,bundle,org.eclipse.jdt.launching,3.5.0.v20090527,"org.eclipse.jdt.launching",1320527092745
+error,log,,,"CoreException calling delegate importConfiguration() ServerWorkingCopy Tomcat v6.0 Server at localhost",1320527106333
+started,bundle,org.eclipse.pde.core,3.5.100.v20090821,"org.eclipse.pde.core",1320527138696
+started,bundle,org.eclipse.jst.servlet.ui,1.1.301.v200908101600,"org.eclipse.jst.servlet.ui",1320527138917
+started,bundle,org.eclipse.jst.jee.ui,1.0.201.v200908270924,"org.eclipse.jst.jee.ui",1320527139009
+started,bundle,org.eclipse.jst.j2ee.ui,1.1.301.v200909020100,"org.eclipse.jst.j2ee.ui",1320527139060
+started,bundle,org.eclipse.jst.j2ee.navigator.ui,1.1.300.v200903120000,"org.eclipse.jst.j2ee.navigator.ui",1320527139063

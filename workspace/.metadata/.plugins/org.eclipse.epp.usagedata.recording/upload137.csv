@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320766315091
+activated,view,org.eclipse.ui.console,,"org.eclipse.ui.console.ConsoleView",1320766320520
+error,log,,,"Unhandled event loop exception",1320766325465
+error,log,,,"Error occurred during status handling",1320766325465
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320766325839
+error,log,,,"PermGen space",1320766330457
+error,log,,,"Error occurred during status handling",1320766330472
+error,log,,,"PermGen space",1320766330472
+error,log,,,"Could not create action delegate for id: org.eclipse.jst.server.tomcat.ui.cleanserverworkdir",1320766331580
+error,log,,,"Internal plug-in action delegate error on creation.",1320766332703
+error,log,,,"Error occurred during status handling",1320766332703
+error,log,,,"Internal plug-in action delegate error on creation.",1320766332703
+error,log,,,"Unhandled event loop exception",1320766334872
+error,log,,,"Error occurred during status handling",1320766334872
+activated,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1320766334903
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320766334934
+activated,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1320766334981
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320766334981
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320766335121
+activated,editor,org.eclipse.jst.jsp.ui,1.1.401.v200908111935,"org.eclipse.jst.jsp.core.jspsource.source",1320766338709
+activated,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1320766341002
+activated,editor,org.eclipse.jst.jsp.ui,1.1.401.v200908111935,"org.eclipse.jst.jsp.core.jspsource.source",1320766344388
+closed,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1320766344388
+error,log,,,"Unhandled event loop exception",1320766346634
+error,log,,,"Error occurred during status handling",1320766346634
