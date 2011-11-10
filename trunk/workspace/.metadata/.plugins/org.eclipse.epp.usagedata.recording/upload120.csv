@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui",1320719994890
+started,bundle,org.eclipse.jst.server.tomcat.core,1.1.106.v20090814,"org.eclipse.jst.server.tomcat.core",1320719994950
+started,bundle,org.eclipse.wst.dtd.core,1.1.300.v200904181727,"org.eclipse.wst.dtd.core",1320719997336
+started,bundle,org.eclipse.wst.sse.ui,1.1.101.v200908261807,"org.eclipse.wst.sse.ui",1320719997360
+started,bundle,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.ui",1320719997362
+started,bundle,org.eclipse.wst.wsi.ui,1.0.500.v200901141851,"org.eclipse.wst.wsi.ui",1320719997368
+error,log,,,"A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.",1320719997413
+started,bundle,org.eclipse.jst.jsp.core,1.2.203.v200908241513,"org.eclipse.jst.jsp.core",1320719997447
+started,bundle,org.eclipse.wst.wsdl.validation,1.1.401.v200902271605,"org.eclipse.wst.wsdl.validation",1320719997514
+started,bundle,org.eclipse.wst.xsd.core,1.1.401.v200903020335,"org.eclipse.wst.xsd.core",1320719997521
+started,bundle,org.eclipse.wst.xsl.core,1.0.1.v200908101420,"org.eclipse.wst.xsl.core",1320719997537
+started,bundle,org.eclipse.wst.html.core,1.1.300.v200903120608,"org.eclipse.wst.html.core",1320719997634
+started,bundle,org.eclipse.wst.css.core,1.1.300.v200904131653,"org.eclipse.wst.css.core",1320719997883
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.301.v200805140415,"org.eclipse.wst.common.uriresolver",1320719997891
+started,bundle,org.eclipse.wst.internet.cache,1.0.301.v200805140020,"org.eclipse.wst.internet.cache",1320719998307
+started,bundle,org.eclipse.pde.core,3.5.100.v20090821,"org.eclipse.pde.core",1320720000751
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.0.v20090513-2000,"org.eclipse.ltk.core.refactoring",1320720422697
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1320720422947
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320720445458
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320720447049
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320720447236
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.406.v200903031852,"org.eclipse.jst.ws.axis.creation.ui",1320720447720
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.405.v200901261650,"org.eclipse.jst.ws.axis.consumption.ui",1320720447735
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.306.v200810082309,"org.eclipse.jst.ws.axis.consumption.core",1320720447735
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.ui,1.0.103.v200807162242,"org.eclipse.jst.ws.axis2.creation.ui",1320720447735

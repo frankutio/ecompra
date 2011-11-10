@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.ui.navigator,3.4.1.M20090911-1550,"org.eclipse.ui.navigator",1320719430479
+opened,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320719430620
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320719430667
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1320719431899
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320719433164
+started,bundle,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser",1320719433242
+opened,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320719433850
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320719433881
+activated,editor,org.eclipse.jst.jsp.ui,1.1.401.v200908111935,"org.eclipse.jst.jsp.core.jspsource.source",1320719453321
+closed,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320719453321
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1320719455006
+started,bundle,org.eclipse.jst.jee.ejb,1.0.201.v200908101600,"org.eclipse.jst.jee.ejb",1320719458126
+started,bundle,org.eclipse.jst.jee.web,1.0.200.v200904130912,"org.eclipse.jst.jee.web",1320719458142
+started,bundle,org.eclipse.xsd,2.5.0.v200906151043,"org.eclipse.xsd",1320719458266
+error,log,,,"Unhandled event loop exception",1320719466098
+error,log,,,"Unhandled event loop exception",1320719472572
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320719478390
+executed,command,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.stop",1320719479576
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320719482665
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320719484677
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320719490621
+error,log,,,"Unhandled event loop exception",1320719501494
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320719502586
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320719504333
+executed,command,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.stop",1320719508077

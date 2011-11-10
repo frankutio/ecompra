@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Error occurred during status handling",1320528162340
+error,log,,,"Internal plug-in action delegate error on creation.",1320528162340
+error,log,,,"Unhandled event loop exception",1320528164829
+error,log,,,"Error occurred during status handling",1320528164831
+error,log,,,"Unhandled event loop exception",1320528167301
+error,log,,,"Error occurred during status handling",1320528167303
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320528167933
+executed,command,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.stop",1320528169866
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1320528171446
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320528171583
+error,log,,,"An internal error has occurred.",1320528174181
+error,log,,,"Error occurred during status handling",1320528174183
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320528178854
+error,log,,,"Unhandled event loop exception",1320528181370
+error,log,,,"Error occurred during status handling",1320528181371
+error,log,,,"Unhandled event loop exception",1320528187511
+error,log,,,"Error occurred during status handling",1320528187513
+error,log,,,"Unhandled event loop exception",1320528189947
+error,log,,,"Error occurred during status handling",1320528189949
+error,log,,,"Unhandled event loop exception",1320528192455
+error,log,,,"Error occurred during status handling",1320528192457
+error,log,,,"Unhandled event loop exception",1320528194933
+error,log,,,"Error occurred during status handling",1320528194934
+error,log,,,"Unhandled event loop exception",1320528197407
+error,log,,,"Error occurred during status handling",1320528197408

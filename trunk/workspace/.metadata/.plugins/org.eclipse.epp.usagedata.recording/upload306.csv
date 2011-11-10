@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320857205902
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1320857209929
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1320857209929
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320857226636
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1320857248414
+started,bundle,org.eclipse.jst.j2ee.ui,1.1.301.v200909020100,"org.eclipse.jst.j2ee.ui",1320857248492
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320857254857
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320857260894
+opened,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320857261051
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320857261098
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320857264173
+closed,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320857264173
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320857265421
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320857343187
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320857349225
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320857349474
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320857352407
+closed,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320857352407
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320857353780
+executed,command,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.stop",1320857355059
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1320857355918
+activated,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1320857356324
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320857358477
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320857360365
+executed,command,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.launchShortcut.run",1320857360381

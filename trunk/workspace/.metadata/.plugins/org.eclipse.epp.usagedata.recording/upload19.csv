@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Error occurred during status handling",1320528288767
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320528288833
+error,log,,,"Unhandled event loop exception",1320528291325
+error,log,,,"Error occurred during status handling",1320528291326
+error,log,,,"Unhandled event loop exception",1320528296901
+error,log,,,"Error occurred during status handling",1320528296902
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320528300349
+executed,command,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.stop",1320528300399
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1320528301192
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320528302227
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320528307089
+error,log,,,"Unhandled event loop exception",1320528309583
+error,log,,,"Error occurred during status handling",1320528309585
+error,log,,,"Unhandled event loop exception",1320528311995
+error,log,,,"Error occurred during status handling",1320528311996
+error,log,,,"Unhandled event loop exception",1320528315635
+error,log,,,"Error occurred during status handling",1320528315637
+error,log,,,"Unhandled event loop exception",1320528320156
+error,log,,,"Error occurred during status handling",1320528320158
+error,log,,,"Unhandled event loop exception",1320528322575
+error,log,,,"Error occurred during status handling",1320528322576
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320528325877
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320528332237
+error,log,,,"Unhandled event loop exception",1320528336308
+error,log,,,"Error occurred during status handling",1320528336309

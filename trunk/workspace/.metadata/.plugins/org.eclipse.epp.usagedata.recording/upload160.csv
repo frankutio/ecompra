@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.version,sysinfo,,,"1.7.0_01",1320790047772
+java.vm.info,sysinfo,,,"mixed mode, sharing",1320790047772
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1320790047772
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1320790047772
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1320790047772
+java.vm.specification.version,sysinfo,,,"1.7",1320790047772
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1320790047772
+java.vm.version,sysinfo,,,"21.1-b02",1320790047772
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320790108747
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320790108872
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1320790109792
+started,bundle,org.eclipse.jst.jsp.core,1.2.203.v200908241513,"org.eclipse.jst.jsp.core",1320790111368
+started,bundle,org.eclipse.wst.html.core,1.1.300.v200903120608,"org.eclipse.wst.html.core",1320790111399
+started,bundle,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.resources",1320790125174
+started,bundle,org.eclipse.wst.jsdt.core,1.0.201.v200908101420,"org.eclipse.wst.jsdt.core",1320790125439
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.100.v200809240707,"org.eclipse.wst.jsdt.manipulation",1320790125502
+started,bundle,org.eclipse.wst.jsdt.ui,1.0.200.v200905242047,"org.eclipse.wst.jsdt.ui",1320790125533
+started,bundle,org.eclipse.emf.edit,2.5.0.v200906151043,"org.eclipse.emf.edit",1320790125642
+started,bundle,org.eclipse.emf.common.ui,2.5.0.v200906151043,"org.eclipse.emf.common.ui",1320790125673
+started,bundle,org.eclipse.emf.edit.ui,2.5.0.v200906151043,"org.eclipse.emf.edit.ui",1320790125673
+started,bundle,org.eclipse.jst.j2ee.webservice.ui,1.1.300.v200902052230,"org.eclipse.jst.j2ee.webservice.ui",1320790125673
+started,bundle,org.eclipse.jst.j2ee.webservice,1.1.300.v200901220600,"org.eclipse.jst.j2ee.webservice",1320790125689
+started,bundle,org.eclipse.jst.jee.ui,1.0.201.v200908270924,"org.eclipse.jst.jee.ui",1320790125829
+started,bundle,org.eclipse.jst.j2ee.ui,1.1.301.v200909020100,"org.eclipse.jst.j2ee.ui",1320790125845
+started,bundle,org.eclipse.jst.j2ee.navigator.ui,1.1.300.v200903120000,"org.eclipse.jst.j2ee.navigator.ui",1320790125845

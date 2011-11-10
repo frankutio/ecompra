@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1320791002506
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320791009105
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320791162655
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320791189134
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320791279744
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320791279760
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1320791284877
+started,bundle,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui",1320791286983
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.301.v200805140415,"org.eclipse.wst.common.uriresolver",1320791287685
+started,bundle,org.eclipse.jst.jsp.ui,1.1.401.v200908111935,"org.eclipse.jst.jsp.ui",1320791287966
+started,bundle,org.eclipse.xsd,2.5.0.v200906151043,"org.eclipse.xsd",1320791288090
+started,bundle,org.eclipse.wst.dtd.ui,1.0.400.v200904300717,"org.eclipse.wst.dtd.ui",1320791288122
+started,bundle,org.eclipse.wst.internet.cache,1.0.301.v200805140020,"org.eclipse.wst.internet.cache",1320791288200
+opened,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1320791288231
+activated,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1320791288418
+started,bundle,org.eclipse.jst.j2ee.jca,1.1.300.v200903120000,"org.eclipse.jst.j2ee.jca",1320791288917
+started,bundle,org.eclipse.jst.j2ee.ejb,1.1.300.v200904230730,"org.eclipse.jst.j2ee.ejb",1320791288948
+started,bundle,org.eclipse.jst.jsf.ui,1.2.1.v20090827,"org.eclipse.jst.jsf.ui",1320791288948
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320791306342
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320791314281
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320791314312
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320791321566
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1320791328492
+started,bundle,org.eclipse.wst.css.core,1.1.300.v200904131653,"org.eclipse.wst.css.core",1320791328726
+started,bundle,org.eclipse.wst.jsdt.web.ui,1.0.200.v200904230847,"org.eclipse.wst.jsdt.web.ui",1320791328851

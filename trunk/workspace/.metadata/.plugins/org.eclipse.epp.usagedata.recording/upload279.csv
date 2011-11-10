@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.xsd,2.5.0.v200906151043,"org.eclipse.xsd",1320850139663
+os,sysinfo,,,"win32",1320850139679
+arch,sysinfo,,,"x86",1320850139679
+ws,sysinfo,,,"win32",1320850139679
+locale,sysinfo,,,"en_US",1320850139679
+processors,sysinfo,,,"2",1320850139679
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1320850139679
+java.runtime.version,sysinfo,,,"1.7.0_01-b08",1320850139679
+java.specification.name,sysinfo,,,"Java Platform API Specification",1320850139679
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1320850139679
+java.specification.version,sysinfo,,,"1.7",1320850139679
+java.vendor,sysinfo,,,"Oracle Corporation",1320850139679
+java.version,sysinfo,,,"1.7.0_01",1320850139679
+java.vm.info,sysinfo,,,"mixed mode, sharing",1320850139679
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1320850139679
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1320850139679
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1320850139679
+java.vm.specification.version,sysinfo,,,"1.7",1320850139679
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1320850139679
+java.vm.version,sysinfo,,,"21.1-b02",1320850139679
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1320850139773
+started,bundle,org.eclipse.jdt.apt.core,3.3.201.R35x_v20090818-0235,"org.eclipse.jdt.apt.core",1320850139804
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.201.R35x_v20090818-0225,"org.eclipse.jdt.apt.pluggable.core",1320850139819
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.103.v200905151848,"org.eclipse.wst.ws.service.policy",1320850139929
+started,bundle,org.eclipse.wst.command.env,1.0.408.v200903110045,"org.eclipse.wst.command.env",1320850139944

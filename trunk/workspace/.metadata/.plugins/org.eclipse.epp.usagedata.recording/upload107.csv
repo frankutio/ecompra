@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Unhandled event loop exception",1320719517921
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1320719518966
+error,log,,,"Unhandled event loop exception",1320719522102
+error,log,,,"PermGen space",1320719525268
+error,log,,,"Unhandled event loop exception",1320719527312
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320719528342
+error,log,,,"Unhandled event loop exception",1320719534956
+error,log,,,"Unhandled event loop exception",1320719538076
+error,log,,,"Unhandled event loop exception",1320719545361
+executed,command,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.stop",1320719546406
+error,log,,,"Unhandled event loop exception",1320719552444
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320719555954
+error,log,,,"Unhandled event loop exception",1320719561258
+error,log,,,"Unhandled event loop exception",1320719564331
+error,log,,,"Unhandled event loop exception",1320719574377
+error,log,,,"Unhandled event loop exception",1320719577497
+error,log,,,"Unhandled event loop exception",1320719580586
+error,log,,,"Unhandled event loop exception",1320719589899
+error,log,,,"Unhandled event loop exception",1320719668111
+error,log,,,"Unhandled event loop exception",1320719671645
+error,log,,,"Unhandled event loop exception",1320719718422
+error,log,,,"Unhandled event loop exception",1320719721940
+error,log,,,"Unhandled event loop exception",1320719731339
+error,log,,,"Unhandled event loop exception",1320719749599
+error,log,,,"Unhandled event loop exception",1320719752920

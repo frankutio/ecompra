@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1320795338025
+java.runtime.version,sysinfo,,,"1.7.0_01-b08",1320795338025
+java.specification.name,sysinfo,,,"Java Platform API Specification",1320795338025
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1320795338025
+java.specification.version,sysinfo,,,"1.7",1320795338025
+java.vendor,sysinfo,,,"Oracle Corporation",1320795338025
+java.version,sysinfo,,,"1.7.0_01",1320795338025
+java.vm.info,sysinfo,,,"mixed mode, sharing",1320795338025
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1320795338025
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1320795338025
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1320795338025
+java.vm.specification.version,sysinfo,,,"1.7",1320795338025
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1320795338025
+java.vm.version,sysinfo,,,"21.1-b02",1320795338025
+started,bundle,org.eclipse.mylyn.monitor.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.monitor.ui",1320795338290
+started,bundle,org.eclipse.wst.internet.cache,1.0.301.v200805140020,"org.eclipse.wst.internet.cache",1320795338539
+started,bundle,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui",1320795341909
+started,bundle,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui",1320795342159
+started,bundle,org.eclipse.xsd,2.5.0.v200906151043,"org.eclipse.xsd",1320795342299
+started,bundle,org.eclipse.jst.jsp.ui,1.1.401.v200908111935,"org.eclipse.jst.jsp.ui",1320795342377
+started,bundle,org.eclipse.wst.dtd.ui,1.0.400.v200904300717,"org.eclipse.wst.dtd.ui",1320795343079
+opened,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1320795343282
+activated,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1320795343609
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320795343609
+started,bundle,org.eclipse.jst.j2ee.ejb,1.1.300.v200904230730,"org.eclipse.jst.j2ee.ejb",1320795343797

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.runtime.version,sysinfo,,,"1.7.0_01-b08",1320719993470
+java.specification.name,sysinfo,,,"Java Platform API Specification",1320719993470
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1320719993471
+java.specification.version,sysinfo,,,"1.7",1320719993471
+java.vendor,sysinfo,,,"Oracle Corporation",1320719993471
+java.version,sysinfo,,,"1.7.0_01",1320719993471
+java.vm.info,sysinfo,,,"mixed mode, sharing",1320719993471
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1320719993471
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1320719993471
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1320719993471
+java.vm.specification.version,sysinfo,,,"1.7",1320719993471
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1320719993471
+java.vm.version,sysinfo,,,"21.1-b02",1320719993471
+started,bundle,org.eclipse.team.cvs.ui,3.3.201.R35x_v20090826-0905,"org.eclipse.team.cvs.ui",1320719993512
+started,bundle,org.eclipse.jst.jee,1.0.201.v200909030330,"org.eclipse.jst.jee",1320719993599
+started,bundle,org.eclipse.jpt.core,2.2.1.v200908270220,"org.eclipse.jpt.core",1320719993651
+started,bundle,org.eclipse.jpt.eclipselink.core,1.2.0.v200905310000,"org.eclipse.jpt.eclipselink.core",1320719993660
+started,bundle,org.eclipse.wst.sse.core,1.1.401.v200909172215,"org.eclipse.wst.sse.core",1320719993747
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.1.301.v200908101600,"org.eclipse.wst.common.frameworks.ui",1320719993788
+started,bundle,org.eclipse.wst.xml.core,1.1.401.v200908242115,"org.eclipse.wst.xml.core",1320719993791
+started,bundle,org.eclipse.wst.validation,1.2.102.v200905201610,"org.eclipse.wst.validation",1320719993821
+started,bundle,org.eclipse.jst.j2ee,1.1.301.v200909030330,"org.eclipse.jst.j2ee",1320719993848
+started,bundle,org.eclipse.jem.workbench,2.0.201.v200908271530,"org.eclipse.jem.workbench",1320719993904
+started,bundle,org.eclipse.wst.server.core,1.1.102.v20090825,"org.eclipse.wst.server.core",1320719994802
+started,bundle,org.eclipse.jst.server.core,1.2.0.v20090421,"org.eclipse.jst.server.core",1320719994806

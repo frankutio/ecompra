@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1320766348319
+error,log,,,"Unhandled event loop exception",1320766352812
+error,log,,,"Error occurred during status handling",1320766352812
+error,log,,,"Unhandled event loop exception",1320766366165
+error,log,,,"Error occurred during status handling",1320766366165
+error,log,,,"Unhandled event loop exception",1320766371454
+error,log,,,"Error occurred during status handling",1320766371454
+error,log,,,"PermGen space",1320766394604
+error,log,,,"Error occurred during status handling",1320766394604
+error,log,,,"PermGen space",1320766394604
+error,log,,,"Unhandled event loop exception",1320766407146
+error,log,,,"Error occurred during status handling",1320766407162
+error,log,,,"Unhandled event loop exception",1320766409252
+error,log,,,"Error occurred during status handling",1320766409252
+error,log,,,"Unhandled event loop exception",1320766414759
+error,log,,,"Error occurred during status handling",1320766414759
+activated,editor,org.eclipse.jst.jsp.ui,1.1.401.v200908111935,"org.eclipse.jst.jsp.core.jspsource.source",1320766416428
+error,log,,,"Unhandled event loop exception",1320766422107
+error,log,,,"Error occurred during status handling",1320766422122
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1320766422138
+error,log,,,"Unhandled event loop exception",1320766429798
+error,log,,,"Error occurred during status handling",1320766429798
+error,log,,,"Unhandled event loop exception",1320766431919
+error,log,,,"Error occurred during status handling",1320766431919
+error,log,,,"Unhandled event loop exception",1320766440936

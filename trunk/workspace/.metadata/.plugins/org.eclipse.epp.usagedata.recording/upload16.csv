@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Error occurred during status handling",1320528099050
+error,log,,,"Unhandled event loop exception",1320528101610
+error,log,,,"Error occurred during status handling",1320528101611
+error,log,,,"Unhandled event loop exception",1320528105039
+error,log,,,"Error occurred during status handling",1320528105041
+error,log,,,"Unhandled event loop exception",1320528107523
+error,log,,,"Error occurred during status handling",1320528107524
+error,log,,,"Unhandled event loop exception",1320528115687
+error,log,,,"Error occurred during status handling",1320528115688
+error,log,,,"Unhandled event loop exception",1320528120662
+error,log,,,"Error occurred during status handling",1320528120663
+activated,editor,org.eclipse.jst.jsp.ui,1.1.401.v200908111935,"org.eclipse.jst.jsp.core.jspsource.source",1320528124977
+error,log,,,"Unhandled event loop exception",1320528127452
+error,log,,,"Error occurred during status handling",1320528127454
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320528127572
+error,log,,,"Unhandled event loop exception",1320528130005
+error,log,,,"Error occurred during status handling",1320528130006
+error,log,,,"Unhandled event loop exception",1320528133180
+error,log,,,"Error occurred during status handling",1320528133181
+error,log,,,"Unhandled event loop exception",1320528137649
+error,log,,,"Error occurred during status handling",1320528137650
+error,log,,,"Unhandled event loop exception",1320528143408
+error,log,,,"Error occurred during status handling",1320528143410
+error,log,,,"Could not create action delegate for id: org.eclipse.wst.common.snippets.internal.actions.AddToSnippetsEditorActionDelegate",1320528161108
+error,log,,,"Internal plug-in action delegate error on creation.",1320528162339

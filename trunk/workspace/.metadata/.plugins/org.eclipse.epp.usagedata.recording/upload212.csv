@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320795173737
+error,log,,,"Failed to retrieve documents from one of the help search participants: org.eclipse.ui.internal.intro.impl.model.IntroSearchParticipant; skipping this one.",1320795176061
+error,log,,,"Unhandled event loop exception",1320795176077
+activated,view,org.eclipse.help.ui,3.4.1.v20090819_35x,"org.eclipse.help.ui.HelpView",1320795176077
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320795176123
+closed,view,org.eclipse.help.ui,3.4.1.v20090819_35x,"org.eclipse.help.ui.HelpView",1320795176155
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320795176186
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320795180944
+error,log,,,"Unhandled event loop exception",1320795182098
+error,log,,,"An internal error occurred during: ""Indexing help..."".",1320795182098
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320795182098
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320795183877
+activated,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1320795193994
+closed,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320795193994
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320795215990
+closed,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1320795215990
+activated,editor,org.eclipse.jst.jsp.ui,1.1.401.v200908111935,"org.eclipse.jst.jsp.core.jspsource.source",1320795224523
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320795228064
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320795229484
+executed,command,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.launchShortcut.run",1320795229531
+opened,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320795229718
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320795229749
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320795250886
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320795256143
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320795257890

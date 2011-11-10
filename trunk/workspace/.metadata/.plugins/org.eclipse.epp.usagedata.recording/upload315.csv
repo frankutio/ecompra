@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1320859876241
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320859879127
+activated,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1320859888752
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320859896490
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320859898065
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320859915584
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320859915724
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320859918220
+activated,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1320859948937
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320859958250
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.refresh",1320859968562
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320859977001
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320859979138
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320859995362
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320860017421
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1320860025127
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320860025143
+activated,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1320860040852
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320860046234
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320860048044
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320860049463
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320860066576
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320860078900
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320860101754
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320860114952

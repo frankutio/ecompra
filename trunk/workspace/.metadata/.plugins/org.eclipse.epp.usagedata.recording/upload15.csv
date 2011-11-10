@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.draw2d,3.5.1.v20090813-1341,"org.eclipse.draw2d",1320528080568
+opened,view,org.eclipse.wst.common.snippets,1.1.300.v200903120643,"org.eclipse.wst.common.snippets.internal.ui.SnippetsView",1320528080915
+activated,view,org.eclipse.wst.common.snippets,1.1.300.v200903120643,"org.eclipse.wst.common.snippets.internal.ui.SnippetsView",1320528080952
+started,bundle,org.eclipse.datatools.connectivity,1.1.2.v200908180040,"org.eclipse.datatools.connectivity",1320528081817
+started,bundle,org.eclipse.datatools.connectivity.ui,1.1.4.v200908130540,"org.eclipse.datatools.connectivity.ui",1320528081820
+started,bundle,org.eclipse.datatools.connectivity.ui.dse,1.1.3.v200906020553,"org.eclipse.datatools.connectivity.ui.dse",1320528081822
+started,bundle,org.eclipse.datatools.enablement.ingres.ui,1.0.0.v200906111150,"org.eclipse.datatools.enablement.ingres.ui",1320528081854
+started,bundle,org.eclipse.datatools.connectivity.sqm.core,1.1.0.v200906020553,"org.eclipse.datatools.connectivity.sqm.core",1320528082170
+started,bundle,org.eclipse.datatools.connectivity.sqm.core.ui,1.1.100.v200906020553,"org.eclipse.datatools.connectivity.sqm.core.ui",1320528082190
+error,log,,,"Unhandled event loop exception",1320528086124
+error,log,,,"Error occurred during status handling",1320528087420
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1320528087457
+error,log,,,"Unhandled event loop exception",1320528090050
+error,log,,,"Error occurred during status handling",1320528090052
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1320528090060
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1320528090071
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1320528090083
+error,log,,,"Unhandled event loop exception",1320528092725
+error,log,,,"Error occurred during status handling",1320528092726
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1320528092769
+error,log,,,"PermGen space",1320528095322
+error,log,,,"Error occurred during status handling",1320528095324
+error,log,,,"PermGen space",1320528095324
+error,log,,,"No message.",1320528095325
+error,log,,,"An internal error has occurred.",1320528099048

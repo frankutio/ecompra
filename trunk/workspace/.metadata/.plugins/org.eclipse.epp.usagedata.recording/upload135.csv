@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Could not create action delegate for id: compareWithEachOther",1320766232458
+error,log,,,"Internal plug-in action delegate error on creation.",1320766235780
+error,log,,,"Error occurred during status handling",1320766236841
+error,log,,,"Internal plug-in action delegate error on creation.",1320766236841
+error,log,,,"An internal error occurred during: ""Periodic workspace save."".",1320766238963
+error,log,,,"Error occurred during status handling",1320766238963
+error,log,,,"Could not create action delegate for id: org.eclipse.team.ccvs.ui.showeditors",1320766238963
+error,log,,,"An internal error occurred during: ""Periodic workspace save."".",1320766238963
+error,log,,,"Internal plug-in action delegate error on creation.",1320766240039
+error,log,,,"Error occurred during status handling",1320766240039
+error,log,,,"Internal plug-in action delegate error on creation.",1320766240039
+error,log,,,"Could not create action delegate for id: org.eclipse.team.ui.applyPatch",1320766241116
+error,log,,,"Internal plug-in action delegate error on creation.",1320766242192
+error,log,,,"Error occurred during status handling",1320766242192
+error,log,,,"Internal plug-in action delegate error on creation.",1320766242192
+error,log,,,"Could not create action delegate for id: updateTestSuite",1320766243268
+error,log,,,"Internal plug-in action delegate error on creation.",1320766244329
+error,log,,,"Error occurred during status handling",1320766244329
+error,log,,,"Internal plug-in action delegate error on creation.",1320766244329
+error,log,,,"Could not create action delegate for id: javaAddElementFromHistoryAction",1320766245406
+error,log,,,"Internal plug-in action delegate error on creation.",1320766246482
+error,log,,,"Error occurred during status handling",1320766246482
+error,log,,,"Internal plug-in action delegate error on creation.",1320766246482
+error,log,,,"Could not create action delegate for id: org.eclipse.mylyn.java.ui.interest.increase.element",1320766247590
+error,log,,,"Internal plug-in action delegate error on creation.",1320766248666

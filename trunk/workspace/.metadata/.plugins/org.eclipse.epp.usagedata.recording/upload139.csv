@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Error occurred during status handling",1320766440952
+activated,editor,org.eclipse.jst.jsp.ui,1.1.401.v200908111935,"org.eclipse.jst.jsp.core.jspsource.source",1320766445398
+error,log,,,"Unhandled event loop exception",1320766448034
+error,log,,,"Error occurred during status handling",1320766448034
+error,log,,,"Unhandled event loop exception",1320766450140
+error,log,,,"Error occurred during status handling",1320766450140
+error,log,,,"Unhandled event loop exception",1320766452246
+error,log,,,"Error occurred during status handling",1320766452262
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1320766458143
+error,log,,,"Unhandled event loop exception",1320766465132
+error,log,,,"Error occurred during status handling",1320766465147
+error,log,,,"Unhandled event loop exception",1320766467316
+error,log,,,"Error occurred during status handling",1320766467316
+error,log,,,"Unhandled event loop exception",1320766469437
+error,log,,,"Error occurred during status handling",1320766469437
+error,log,,,"Unhandled event loop exception",1320766472947
+error,log,,,"Error occurred during status handling",1320766472947
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320766491371
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320766496363
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320766496550
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320766499015
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320766501246
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320766501526
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320766502509
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320766503523

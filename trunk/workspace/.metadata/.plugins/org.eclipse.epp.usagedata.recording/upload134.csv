@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+opened,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1320766137036
+activated,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1320766137161
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1320766148190
+activated,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1320766165553
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1320766169562
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320766174336
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320766178906
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320766179343
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320766179421
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1320766182931
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.refresh",1320766201682
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.refresh",1320766210259
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320766221928
+activated,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1320766222037
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1320766222037
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1320766224970
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1320766225126
+error,log,,,"Could not create action delegate for id: org.eclipse.team.ui.replaceLocalHistory",1320766226966
+error,log,,,"Internal plug-in action delegate error on creation.",1320766228027
+error,log,,,"Error occurred during status handling",1320766228027
+error,log,,,"Internal plug-in action delegate error on creation.",1320766228027
+error,log,,,"Could not create action delegate for id: org.eclipse.team.ui.compareWithEachOther",1320766230305
+error,log,,,"Internal plug-in action delegate error on creation.",1320766231397
+error,log,,,"Error occurred during status handling",1320766231397
+error,log,,,"Internal plug-in action delegate error on creation.",1320766231397

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Error occurred during status handling",1320766248666
+error,log,,,"Internal plug-in action delegate error on creation.",1320766248666
+error,log,,,"Could not create action delegate for id: org.eclipse.mylyn.java.ui.interest.remove.element",1320766249742
+error,log,,,"Internal plug-in action delegate error on creation.",1320766250803
+error,log,,,"Error occurred during status handling",1320766250803
+error,log,,,"Internal plug-in action delegate error on creation.",1320766250803
+error,log,,,"Could not create action delegate for id: org.eclipse.pde.api.tools.ui.action.compare",1320766251864
+error,log,,,"Internal plug-in action delegate error on creation.",1320766252909
+error,log,,,"Error occurred during status handling",1320766252925
+error,log,,,"Internal plug-in action delegate error on creation.",1320766252925
+error,log,,,"Unhandled event loop exception",1320766255062
+error,log,,,"Error occurred during status handling",1320766255062
+error,log,,,"Unhandled event loop exception",1320766260943
+error,log,,,"Error occurred during status handling",1320766260959
+error,log,,,"Unhandled event loop exception",1320766270288
+error,log,,,"Error occurred during status handling",1320766270288
+error,log,,,"Unhandled event loop exception",1320766276699
+error,log,,,"Error occurred during status handling",1320766276699
+error,log,,,"Could not create action delegate for id: addFromHistoryAction",1320766310894
+error,log,,,"Internal plug-in action delegate error on creation.",1320766312002
+error,log,,,"Error occurred during status handling",1320766312002
+error,log,,,"Internal plug-in action delegate error on creation.",1320766312002
+error,log,,,"Unhandled event loop exception",1320766314155
+error,log,,,"Error occurred during status handling",1320766314155
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1320766314186

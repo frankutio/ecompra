@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.name,sysinfo,,,"Java Platform API Specification",1320719823185
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1320719823185
+java.specification.version,sysinfo,,,"1.7",1320719823185
+java.vendor,sysinfo,,,"Oracle Corporation",1320719823185
+java.version,sysinfo,,,"1.7.0_01",1320719823185
+java.vm.info,sysinfo,,,"mixed mode, sharing",1320719823185
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1320719823185
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1320719823185
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1320719823185
+java.vm.specification.version,sysinfo,,,"1.7",1320719823185
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1320719823185
+java.vm.version,sysinfo,,,"21.1-b02",1320719823185
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.1.301.v200908101600,"org.eclipse.wst.common.frameworks.ui",1320719823214
+started,bundle,org.eclipse.wst.xml.core,1.1.401.v200908242115,"org.eclipse.wst.xml.core",1320719823219
+started,bundle,org.eclipse.wst.validation,1.2.102.v200905201610,"org.eclipse.wst.validation",1320719823261
+started,bundle,org.eclipse.jst.j2ee,1.1.301.v200909030330,"org.eclipse.jst.j2ee",1320719823285
+started,bundle,org.eclipse.jem.workbench,2.0.201.v200908271530,"org.eclipse.jem.workbench",1320719823335
+started,bundle,org.eclipse.debug.core,3.5.0.v20090526-1600,"org.eclipse.debug.core",1320719824126
+started,bundle,org.eclipse.jdt.launching,3.5.0.v20090527,"org.eclipse.jdt.launching",1320719824130
+started,bundle,org.eclipse.wst.server.core,1.1.102.v20090825,"org.eclipse.wst.server.core",1320719824228
+started,bundle,org.eclipse.jst.server.core,1.2.0.v20090421,"org.eclipse.jst.server.core",1320719824236
+started,bundle,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui",1320719824310
+started,bundle,org.eclipse.jst.server.tomcat.core,1.1.106.v20090814,"org.eclipse.jst.server.tomcat.core",1320719824373
+started,bundle,org.eclipse.wst.jsdt.core,1.0.201.v200908101420,"org.eclipse.wst.jsdt.core",1320719825063
+started,bundle,org.eclipse.wst.jsdt.web.core,1.0.200.v200905120445,"org.eclipse.wst.jsdt.web.core",1320719825513
