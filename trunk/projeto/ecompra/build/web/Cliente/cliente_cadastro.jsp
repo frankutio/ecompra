@@ -5,14 +5,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>SISVENDAS</title>
-<link rel="stylesheet" type="text/css" href="css/geral.css" />
+<link rel="stylesheet" type="text/css" href="/ecompra/public/css/geral.css" />
 </head>
 <body class="body">
 <form action="IncluirClienteServlet">
   <div id="topo">&nbsp;
-    <div id="carrinho"><a href="#" class="setaLink"><img src="icones/ic_carrinho.gif" border="0" /><span class="texto_opcoes">Meu carrinho</span></a></div>
-    <div id="cadastro"><a href="cliente_cadastro.html"  class="setaLink"><img src="icones/ic_cadastro.gif" border="0" /><span class="texto_opcoes" >Cadastre-se aqui!</span></a></div>
-    <div id="login"><a href="cliente_login.html" class="setaLink"><img src="icones/ic_login.gif" border="0"/><span class="texto_opcoes">Login</span></a></div>
+    <div id="carrinho"><a href="#" class="setaLink"><img src="/ecompra/public/image/icones/ic_carrinho.gif" border="0" /><span class="texto_opcoes">Meu carrinho</span></a></div>
+    <div id="cadastro"><a href="cliente_cadastro.html"  class="setaLink"><img src="/ecompra/public/image/icones/ic_cadastro.gif" border="0" /><span class="texto_opcoes" >Cadastre-se aqui!</span></a></div>
+    <div id="login"><a href="cliente_login.html" class="setaLink"><img src="/ecompra/public/image/icones/ic_login.gif" border="0"/><span class="texto_opcoes">Login</span></a></div>
   </div>
   <div class="clear"></div>
   <div id="logo"><a href="index.html"><img src="imagens/logo3.gif" border="0" title="Retornar para a loja!" class="setaLink"  /></a></div>
