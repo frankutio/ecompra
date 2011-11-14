@@ -44,7 +44,7 @@
 	}
 	
 #conteudo{
-	width:71%;
+	width:69%;
 	margin-left:220px;
 	margin-top:25px;
 	background-color:#FFFFFF;
@@ -52,8 +52,8 @@
 	}
 	
 #conteudo_login{
-	width:71%;
-	height:430px;
+	width:69%;
+	height:450px;
 	margin-left:220px;
 	margin-top:25px;
 	background-color:#FFFFFF;
@@ -61,20 +61,43 @@
 	background-position:right;
 	background-repeat:no-repeat;
 	border:1px solid #9BBA1E;
+	margin-bottom:5px;
 	}
+	
+#conteudo_tela_painel{
+	width:69%;
+	height:450px;
+	margin-left:200px;
+	margin-top:15px;
+	background-color:#FFFFFF;
+	background-image:url(../imagens/marca_dagua2.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+	border:1px solid #9BBA1E;
+	}
+	
+
 	
 #promocao{
 	margin-left:20px;
-	margin-top:-430px!important;
+	margin-top:-450px!important;
 	float:right;
 	margin-right:12px;
-	clear:both;
+	margin-bottom:-60px;
+	}
+	
+#promocao_loja{
+	margin-left:20px;
+	margin-top:-600px!important;
+	float:right;
+	margin-right:12px;
+	margin-bottom:-60px;
 	}
 	
 #rodape{
 	text-align:center;
 	background-color:#9BBA1E;
-	margin-top:8px;
+	margin-top:0px;
 	}
 
 .barNav a {
@@ -209,6 +232,15 @@
 	font-size:12px;
 	color:#000;
 	font-weight:bold;
+	background-color:#999999;
+	}
+	
+.botao_cliente{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	text-align:right;
+	background-color:#9BBA1E;
 	}
 	
 .obrigatorio{
@@ -318,10 +350,10 @@
 	
 	
 #conteudo_painel{
-	width:71%;
-	height:430px;
-	margin-left:220px;
-	margin-top:25px;
+	width:69%;
+	height:460px;
+	margin-left:200px;
+	margin-top:5px;
 	background-color:#FFFFFF;
 	background-position:right;
 	background-repeat:no-repeat;
@@ -346,10 +378,49 @@
 	color:#000000;
 	}
 	
+	
+#tabela_painel_control{
+	}
+	
+#tabela_painel_control th{
+	background-color:#9bba1e;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	}
+	
+#tabela_painel_control td{
+	border-spacing:0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	}
+	
 .sem_borda{
 	border:none!important;
 	}
 	
 .alinha_centro{
+	text-align:center;
+	}
+	
+#icone_tree{
+	width:85px;
+	margin-left:65px;
+	padding-bottom:-30px;
+	margin-right:200px;
+	}
+	
+#icone_tree_painel{
+	float:right;
+	margin-right:30px;
+	margin-top:-94px;
+	}
+	
+.fonte_titulo{
+	background-color:#9bba1e;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
 	text-align:center;
 	}
