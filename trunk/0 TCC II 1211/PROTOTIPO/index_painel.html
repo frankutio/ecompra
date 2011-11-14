@@ -2,23 +2,27 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>SISVENDAS</title>
+<title>e-Compra</title>
 <link rel="stylesheet" type="text/css" href="css/geral.css" />
 </head>
 <body class="body">
 <form method="post" action="trab_diplomacao">
    <div id="topo">&nbsp;
-    <div id="sair"><a href="index_painel.html" class="setaLink"><img src="icones/ic_sair.gif" border="0"  /><span class="texto_opcoes">Sair</span></a></div>
-	<div id="relatorios"><img src="icones/ic_relatorios.gif" border="0"  /><span class="texto_opcoes">Relatórios</span></div>
+   <div id="painel_topo">Painel Administrativo <span style="font-size:50px;">e</span>-compra</div>
+   <!--
+    <div id="sair"><img src="icones/ic_sair.gif" border="0"  /><span class="texto_opcoes">Sair</span></div>
+	<div id="relatorios"><img src="icones/ic_relatorios.gif" border="0"  /><span class="texto_opcoes">Gerar Relatórios</span></div>
 	<div id="publicidade"><img src="icones/ic_publicidade.gif" border="0"  /><span class="texto_opcoes">Publicidade</span></div>
 	<div id="clientes"><img src="icones/ic_clientes.gif" border="0"  /><span class="texto_opcoes">Clientes</span></div>
 	<div id="pedidos"><img src="icones/ic_pedidos.gif" border="0"  /><span class="texto_opcoes">Pedidos</span></div>
 	<div id="produtos"><img src="icones/ic_produtos.gif" border="0"  /><span class="texto_opcoes">Produtos</span></div>
+	-->
   </div>
   <div class="clear"></div>
   <div id="logo"><a href="index.html"><img src="imagens/logo3.gif" border="0" title="Retornar para a loja!" class="setaLink"  /></a></div>
   <div class="clear"></div>
   <div id="menu_super">
+  
     <p class="barNav">&nbsp;
 	<!--
 	<a href="caminho/arquivo.html" >ACESSÓRIOS E PERIFÉRICOS</a>
@@ -29,37 +33,29 @@
 	<a href="caminho/arquivo.html" >NOTEBOOKS </a>
 	-->
 	</p>
+	
   </div>
-  <div id="conteudo_painel">
-    <table width="100%" height="177" id="tabela_painel">
+  <div class="clear"></div>
+  <div id="conteudo_tela_painel">
+    <table width="100%" border="0" id="tabela_login">
       <tr>
-        <th width="14%">N&ordm; produto </th>
-        <th height="35" colspan="2">Descri&ccedil;&atilde;o produto </th>
-        <th width="23%">Qtd. Estoque </th>
-        <th width="11%">Alterar</th>
-        <th width="11%">Excluir</th>
-      </tr>
-      <tr>
-        <td class="alinha_centro">001</td>
-        <td height="40" colspan="2">Monitor Sansung 15' Slim </td>
-        <td class="alinha_centro">20</td>
-        <td align="center"><img src="icones/ic_editar.gif" class="setaLink" title="Alterar"/></td>
-        <td align="center"><img src="icones/ic_excluir.gif" class="setaLink" title="Excluir" /></td>
-      </tr>
-      <tr  >
-        <td class="alinha_centro">010</td>
-        <td height="46" colspan="2">Monitor LG 20' Black Piano </td>
-        <td class="alinha_centro">18</td>
-        <td align="center"><img src="icones/ic_editar.gif" class="setaLink" title="Alterar"/></td>
-        <td align="center"><img src="icones/ic_excluir.gif" class="setaLink" title="Excluir" /></td>
+        <td width="18%" align="right">Login:</td>
+        <td colspan="2"><label>
+          <input name="textarea" type="text" value="" />
+        </label></td>
       </tr>
       <tr >
-        <td height="46" colspan="6" align="center" class="sem_borda"><input type="button" value="Incluir Produto" class="botao"  /></td>
+        <td align="right">Senha:</td>
+        <td colspan="2"><input name="textarea2" type="password" value="" /></td>
+      </tr>
+      <tr >
+        <td height="48" colspan="2" align="center"><a href="painel_logado.html"><input type="button" value="Entrar" class="botao setaLink"/></a></td>
+        <td width="51%" align="left">&nbsp;</td>
       </tr>
     </table>
   </div>
-  
-  <div id="rodape" class="fonteItenMenu">e-compra &reg;</div>
+  <div class="clear"></div>
+		<div id="icone_tree_painel"><img src="imagens/tree_painel.gif" class="setaLink" title="O e-Compra possui responsabilidade ambiental!"/></div>
 </form>
 </body>
 </html>
