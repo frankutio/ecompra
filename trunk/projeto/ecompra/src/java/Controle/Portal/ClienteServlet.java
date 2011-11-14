@@ -34,8 +34,14 @@ public class ClienteServlet extends HttpServlet {
         String proximaPagina = "";
         
         if(operacao.equals("termoValido")){
-            
-            proximaPagina="index.jsp";
+
+            request.setAttribute("Mensagem", "<br /><br /> <h1>Operação acionada: " + operacao + "</h1>");
+            proximaPagina="incluirCliente.jsp";
+        }
+
+        else if(!operacao.equals("termoValido")){
+            request.setAttribute("Mensagem", "<br /><br /> <h1 style='color:red;'>A operação não existe!</h1>");
+            proximaPagina="incluirCliente.jsp";
         }
         
         //PARA DIRECIONAR AS PAGINAS PARA O LOCAL CERTO.
