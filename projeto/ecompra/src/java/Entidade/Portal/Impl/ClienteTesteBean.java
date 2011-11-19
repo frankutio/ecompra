@@ -1,4 +1,4 @@
-package Entidade.Portal;
+package Entidade.Portal.Impl;
 
 public class ClienteTesteBean {
     //encapsulamento

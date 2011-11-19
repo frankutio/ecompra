@@ -1,6 +1,15 @@
-package Entidade.Portal;
+package Entidade.Portal.Impl;
 
-public class Cliente {
+import Entidade.Portal.Entidade;
+
+public class Cliente extends Entidade{
+
+@Override
+public boolean equals(Object obj) {
+    return cpf == ((Cliente) obj).getCpf();
+}
+
+
     //encapsulamento
 	private int cpf;
 	private String nome;
@@ -18,19 +27,7 @@ public class Cliente {
 	
 	//atribuição de valores
 	public Cliente(){
-		cpf =0;
-		nome = "";
-    		endereco = "";
-		estado = "";
-		uf = "";
-		tel_fixo = 0;	
-		tel_cel = 0;
-		sexo = "";
-		estado_civil = "";
-		email = "";
-		login = "";
-		senha = "";
-		conf_senha = "";
+
 	}
 	
 	public Cliente( int cpf, String nome, String endereco, String estado, String uf, int tel_fixo, int tel_cel,

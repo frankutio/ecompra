@@ -1,9 +1,9 @@
-package Persistencia.Portal;
+package Persistencia.Portal.Impl;
 
 import java.sql.*;
 import java.util.ArrayList;
 
-import Entidade.Portal.ClienteTesteBean;
+import Entidade.Portal.Impl.ClienteTesteBean;
 
 
 public class ClienteTesteDao {
@@ -166,7 +166,7 @@ ArrayList<ClienteTesteBean> retorno = new ArrayList<ClienteTesteBean>();
 
 	public ArrayList<ClienteTesteBean> buscarClientes(){
 		conectar();
-		String sql = "select * from crud_usuario.tb_usuario";
+		String sql = "select * from ecompra.cliente";
 
 		try {
 			//preparando statement para inserção
@@ -178,7 +178,7 @@ ArrayList<ClienteTesteBean> retorno = new ArrayList<ClienteTesteBean>();
 			while (rs.next()){
 				//criando obj ClienteBean
 				ClienteTesteBean cliente = new ClienteTesteBean();
-				cliente.setCpf(rs.getInt("cpf"));
+				cliente.setCpf(rs.getInt("cpf_cliente"));
 				cliente.setEmail(rs.getString("email"));
 				//adicionando obj à lista
 				clientes.add(cliente);

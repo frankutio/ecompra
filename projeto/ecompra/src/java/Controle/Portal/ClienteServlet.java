@@ -1,7 +1,7 @@
 package Controle.Portal;
 
-import Entidade.Portal.Cliente;
-import Persistencia.Portal.ClienteDao;
+import Entidade.Portal.Impl.Cliente;
+import Persistencia.Portal.Impl.ClienteDao;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
@@ -44,8 +44,7 @@ public class ClienteServlet extends HttpServlet {
         String uf = request.getParameter("select_uf");
         String tel_fixo = request.getParameter("txt_tel_fixo");
         String tel_cel = request.getParameter("txt_tel_cel");
-        String sexo_fem = request.getParameter("rad_but_fem");
-        String sexo_mas = request.getParameter("rad_but_masc");
+        String sexo = request.getParameter("radio");
         String estado_civil = request.getParameter("select_estado_civil");
         String email = request.getParameter("txt_email");
         String login = request.getParameter("txt_login");
@@ -63,11 +62,7 @@ public class ClienteServlet extends HttpServlet {
         cliente.setTel_fixo(Integer.parseInt(tel_cel));
         cliente.setEmail(email);
         cliente.setSenha(senha);
-        if (sexo_fem == null) {
-            cliente.setSexo(sexo_mas);
-        } else {
-            cliente.setSexo(sexo_fem);
-        }
+        cliente.setSexo(sexo);
         cliente.setEstado_civil(estado_civil);
         cliente.setEmail(email);
         cliente.setLogin(login);
@@ -78,16 +73,21 @@ public class ClienteServlet extends HttpServlet {
         if (operacao.equals("cadastro_cliente")) {
             //instanciando objeto Dao
             ClienteDao dao = new ClienteDao();
-            dao.save(cliente);
+           // dao.save(cliente);
+           dao.incluir(cliente);
 
             
             proximaPagina = "index.jsp";
+        }else if (operacao.equals("editar_cliente")){
+            //EDITAR CLIENTE
         }
+
+
 
         //testando se foi adicionado na entidade
         out.println("<html>");
         out.println("<body>");
-        out.println("Cliente, sexo " + cliente.getSexo() + ", adicionado com sucesso");
+        out.println("Cliente " + cliente.getNome() + ", adicionado com sucesso");
         out.println("</body>");
         out.println("</html>");
         out.flush();

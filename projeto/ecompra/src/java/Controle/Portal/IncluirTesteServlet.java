@@ -1,7 +1,7 @@
 package Controle.Portal;
 
-import Entidade.Portal.ClienteTesteBean;
-import Persistencia.Portal.ClienteTesteDao;
+import Entidade.Portal.Impl.ClienteTesteBean;
+import Persistencia.Portal.Impl.ClienteTesteDao;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
