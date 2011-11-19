@@ -2,8 +2,8 @@ package mainTeste;
 
 import java.util.ArrayList;
 
-import Persistencia.Portal.ClienteTesteDao;
-import Entidade.Portal.ClienteTesteBean;
+import Persistencia.Portal.Impl.ClienteTesteDao;
+import Entidade.Portal.Impl.ClienteTesteBean;
 
 public class MainTeste {
 
