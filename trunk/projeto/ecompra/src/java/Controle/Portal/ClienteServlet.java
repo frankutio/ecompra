@@ -40,7 +40,7 @@ public class ClienteServlet extends HttpServlet {
         String cpf = request.getParameter("txt_cpf");
         String nome = request.getParameter("txt_nome");
         String endereco = request.getParameter("txt_endereco");
-        String estado = request.getParameter("txt_estado");
+        String cidade = request.getParameter("txt_cidade");
         String uf = request.getParameter("select_uf");
         String tel_fixo = request.getParameter("txt_tel_fixo");
         String tel_cel = request.getParameter("txt_tel_cel");
@@ -56,7 +56,7 @@ public class ClienteServlet extends HttpServlet {
         cliente.setCpf(Integer.parseInt(cpf));
         cliente.setNome(nome);
         cliente.setEndereco(endereco);
-        cliente.setEstado(estado);
+        cliente.setCidade(cidade);
         cliente.setUf(uf);
         cliente.setTel_fixo(Integer.parseInt(tel_fixo));
         cliente.setTel_fixo(Integer.parseInt(tel_cel));

@@ -1,46 +1,44 @@
 <%@page contentType="text/html" pageEncoding="ISO-8859-1" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%
+    String mensagem = (String) session.getAttribute("msgError");
+    if (mensagem != null) {
+        session.removeAttribute("msgError");
+    }
+%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-
         <title>e-Compra</title>
-
         <link type="text/css" rel="stylesheet" href="/ecompra/public/css/geral.css" />
-
     </head>
 
     <body class="body">
-        <form method="post" action="trab_diplomacao">
+        <form method="post" action="#">
             <div id="topo">&nbsp;
                 <div id="carrinho"><a href="/ecompra/cliente_carrinho.jsp" class="setaLink"><img src="/ecompra/public/image/icones/ic_carrinho.gif" border="0" /><span class="texto_opcoes">Meu carrinho</span></a></div>
-                <div id="cadastro"><a href="/ecompra/Cliente/cliente_cadastro.jsp"  class="setaLink"><img src="/ecompra/public/image/icones/ic_cadastro.gif" border="0" /><span class="texto_opcoes" >Cadastre-se aqui!</span></a></div>
+                <div id="cadastro"><a href="/ecompra/cliente_cadastro.jsp"  class="setaLink"><img src="/ecompra/public/image/icones/ic_cadastro.gif" border="0" /><span class="texto_opcoes" >Cadastre-se aqui!</span></a></div>
                 <div id="login"><a href="/ecompra/cliente_login.jsp" class="setaLink"><img src="/ecompra/public/image/icones/ic_login.gif" border="0"/><span class="texto_opcoes">Login</span></a></div>
             </div>
-
             <div class="clear"></div>
-
             <div id="logo">
                 <a href="/ecompra/index.jsp"><img src="/ecompra/public/image/logo3.gif" border="0" title="Retornar para a loja!" class="setaLink"  /></a>
             </div>
-
             <div class="clear"></div>
-
             <div id="menu_super">
                 <p class="barNav">
                     <a href="caminho/arquivo.html" >ACESSÓRIOS E PERIFÉRICOS</a>
                     <a href="caminho/arquivo.html">ARMAZENAMENTO</a>
                     <a href="caminho/arquivo.html">IMPRESS&Atilde;O E IMAGEM </a>
-                    <a href="cliente_monitores.html" title="Monitores">MONITORES</a>
-                    <a href="clinete_computadores.html" title="Computadores">COMPUTADORES</a>
-                    <a href="cliente_notebooks.html" title="Notebooks" >NOTEBOOKS </a>
+                    <a href="/ecompra/cliente_monitores.jsp" title="Monitores">MONITORES</a>
+                    <a href="/ecompra/clinete_computadores.jsp" title="Computadores">COMPUTADORES</a>
+                    <a href="/ecompra/cliente_notebooks.jsp" title="Notebooks" >NOTEBOOKS </a>
                 </p>
             </div>
-
             <div class="clear"></div>
-
+            <div id="localizador" ><span class="texto_localizador" >HOME</span></div>
             <div id="banner_topo"><img src="/ecompra/public/image/promocao/banner_super.png" border="0"  /></div>
 
             <div id="menu_lateral">
@@ -51,7 +49,7 @@
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
-                        <td class="fonteItenMenu setaLink"><a href="cliente_notebooks.html" class="setaLink" title="Notebooks">Notebooks</a></td>
+                        <td class="fonteItenMenu setaLink"><a href="/ecompra/cliente_notebooks.jsp" class="setaLink" title="Notebooks">Notebooks</a></td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
@@ -63,7 +61,7 @@
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
-                        <td class="fonteItenMenu setaLink"><a href="cliente_computadores.html" class="setaLink" title="Computadores">Computadores</a></td>
+                        <td class="fonteItenMenu setaLink"><a href="/ecompra/cliente_computadores.jsp" class="setaLink" title="Computadores">Computadores</a></td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
@@ -75,7 +73,7 @@
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
-                        <td class="fonteItenMenu setaLink"><a href="cliente_monitores.html" class="setaLink" title="Monitores de LED">Monitores de LED</a> </td>
+                        <td class="fonteItenMenu setaLink"><a href="/ecompra/cliente_monitores.jsp" class="setaLink" title="Monitores de LED">Monitores de LED</a> </td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>

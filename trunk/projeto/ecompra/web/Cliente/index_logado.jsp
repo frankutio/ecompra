@@ -18,18 +18,14 @@
         <form method="post" action="trab_diplomacao">
             <div id="topo">&nbsp;
                 <div id="sair"><a href="/ecompra/Login?acao=SAIR" class="setaLink"><img src="/ecompra/public/image/icones/ic_sair.gif" border="0"/><span class="texto_opcoes">Sair</span></a></div>
-                <div id="carrinho_logado"><a href="/ecompra/Cliente/cliente_carrinho_logado.jsp" class="setaLink"><img src="/ecompra/public/image/icones/ic_carrinho.gif" border="0" /><span class="texto_opcoes">Meu carrinho</span></a></div>
-                <div id="cadastro_alterar"><a href="/ecompra/Cliente/cliente_cadastro_alterar.html"  class="setaLink"><img src="/ecompra/public/image/icones/ic_meu_cadastro.gif" border="0" /><span class="texto_opcoes" >Meu cadastro</span></a></div>
-                <div id="meus_pedidos"><a href="/ecompra/Cliente/cliente_meus_pedidos.html" class="setaLink"><img src="/ecompra/public/image/icones/ic_meus_pedidos.gif" border="0"/><span class="texto_opcoes">Meus pedidos</span></a></div>
-                <div id="bem_vindo">Bem vindo<%=((Cliente) session.getAttribute("usuarioLogado")).getNome()%></div>
+                <div id="carrinho"><a href="/ecompra/Cliente/cliente_carrinho_logado.jsp" class="setaLink"><img src="/ecompra/public/image/icones/ic_carrinho.gif" border="0" /><span class="texto_opcoes">Meu carrinho</span></a></div>
+                <div id="cadastro"><a href="/ecompra/Cliente/cliente_cadastro_alterar.jsp"  class="setaLink"><img src="/ecompra/public/image/icones/ic_meu_cadastro.gif" border="0" /><span class="texto_opcoes" >Meu cadastro</span></a></div>
+                <div id="meus_pedidos"><a href="/ecompra/Cliente/cliente_meus_pedidos.jsp" class="setaLink"><img src="/ecompra/public/image/icones/ic_meus_pedidos.gif" border="0"/><span class="texto_opcoes">Meus pedidos</span></a></div>
             </div>
-
             <div class="clear"></div>
-
             <div id="logo">
-                <a href="/ecompra/index.jsp"><img src="/ecompra/public/image/logo3.gif" border="0" title="Retornar para a loja!" class="setaLink"  /></a>
+                <a href="/ecompra/Cliente/index_logado.jsp"><img src="/ecompra/public/image/logo3.gif" border="0" title="Retornar para a loja!" class="setaLink"  /></a>
             </div>
-
             <div class="clear"></div>
 
             <div id="menu_super">
@@ -37,14 +33,13 @@
                     <a href="caminho/arquivo.html" >ACESSÓRIOS E PERIFÉRICOS</a>
                     <a href="caminho/arquivo.html">ARMAZENAMENTO</a>
                     <a href="caminho/arquivo.html">IMPRESS&Atilde;O E IMAGEM </a>
-                    <a href="cliente_monitores.html" title="Monitores">MONITORES</a>
-                    <a href="clinete_computadores.html" title="Computadores">COMPUTADORES</a>
-                    <a href="cliente_notebooks.html" title="Notebooks" >NOTEBOOKS </a>
+                    <a href="/ecompra/cliente_monitores.jsp" title="Monitores">MONITORES</a>
+                    <a href="/ecompra/cliente_computadores.jsp" title="Computadores">COMPUTADORES</a>
+                    <a href="/ecompra/cliente_notebooks.jsp" title="Notebooks" >NOTEBOOKS </a>
                 </p>
             </div>
-
             <div class="clear"></div>
-
+            <div id="localizador"><span class="texto_localizador">Bem vindo <%=((Cliente) session.getAttribute("usuarioLogado")).getNome()%>! HOME</span></div>
             <div id="banner_topo"><img src="/ecompra/public/image/promocao/banner_super.png" border="0"  /></div>
 
             <div id="menu_lateral">
@@ -55,7 +50,7 @@
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
-                        <td class="fonteItenMenu setaLink"><a href="cliente_notebooks.html" class="setaLink" title="Notebooks">Notebooks</a></td>
+                        <td class="fonteItenMenu setaLink"><a href="/ecompra/cliente_notebooks.jsp" class="setaLink" title="Notebooks">Notebooks</a></td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
@@ -67,7 +62,7 @@
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
-                        <td class="fonteItenMenu setaLink"><a href="cliente_computadores.html" class="setaLink" title="Computadores">Computadores</a></td>
+                        <td class="fonteItenMenu setaLink"><a href="/ecompra/cliente_computadores.jsp" class="setaLink" title="Computadores">Computadores</a></td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
@@ -79,7 +74,7 @@
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
-                        <td class="fonteItenMenu setaLink"><a href="cliente_monitores.html" class="setaLink" title="Monitores de LED">Monitores de LED</a> </td>
+                        <td class="fonteItenMenu setaLink"><a href="/ecompra/cliente_monitores.jsp" class="setaLink" title="Monitores de LED">Monitores de LED</a> </td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>

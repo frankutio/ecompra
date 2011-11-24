@@ -14,7 +14,7 @@ public boolean equals(Object obj) {
 	private int cpf;
 	private String nome;
 	private String endereco;
-	private String estado;
+	private String cidade;
 	private String uf;
 	private int tel_fixo;	
 	private int tel_cel;
@@ -35,7 +35,7 @@ public boolean equals(Object obj) {
 		this.cpf = cpf;
 		this.nome = nome;
 		this.endereco = endereco;
-		this.estado = estado;
+		this.cidade = estado;
 		this.uf = uf;
 		this.tel_fixo = tel_fixo;
 		this.tel_cel = tel_cel;
@@ -64,11 +64,11 @@ public boolean equals(Object obj) {
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
-	public String getEstado() {
-		return estado;
+	public String getCidade() {
+		return cidade;
 	}
-	public void setEstado(String estado) {
-		this.estado = estado;
+	public void setCidade(String cidade) {
+		this.cidade = cidade;
 	}
 	public String getUf() {
 		return uf;
