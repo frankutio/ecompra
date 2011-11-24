@@ -50,7 +50,7 @@ public class LoginServlet extends HttpServlet {
             response.sendRedirect("/ecompra/Cliente/index_logado.jsp");
         } else {
             request.getSession().setAttribute("msgError", Mensagens.msgErroLogin);
-            response.sendRedirect("index.jsp");
+            response.sendRedirect("cliente_login.jsp");   
         }
 
     }

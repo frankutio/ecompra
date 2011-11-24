@@ -29,7 +29,7 @@ public class ClienteDao extends Dao<Cliente> {
         String sql = "";
         //insert into tb_usuario values (null,'nome','nome','nome')
         sql = "insert into ecompra.cliente (cpf_cliente, nome, "
-                + "endereco, estado, uf, tel_fixo, tel_cel, sexo, "
+                + "endereco, cidade, uf, tel_fixo, tel_cel, sexo, "
                 + "estado_civil, email, login, senha, conf_senha)"
                 + " values (?,?,?,?,?,?,?,?,?,?,?,?,?)";
 
@@ -45,7 +45,7 @@ public class ClienteDao extends Dao<Cliente> {
             stmt.setInt(1, usuario.getCpf());
             stmt.setString(2, usuario.getNome());
             stmt.setString(3, usuario.getEndereco());
-            stmt.setString(4, usuario.getEstado());
+            stmt.setString(4, usuario.getCidade());
             stmt.setString(5, usuario.getUf());
             stmt.setInt(6, usuario.getTel_fixo());
             stmt.setInt(7, usuario.getTel_cel());
@@ -120,7 +120,7 @@ public class ClienteDao extends Dao<Cliente> {
                     usr.setCpf(rs.getInt("cpf_cliente"));
                     usr.setNome(rs.getString("nome"));
                     usr.setEndereco(rs.getString("endereco"));
-                    usr.setEstado(rs.getString("estado"));
+                    usr.setCidade(rs.getString("cidade"));
                     usr.setUf(rs.getString("uf"));
                     usr.setTel_fixo(rs.getInt("tel_fixo"));
                     usr.setTel_cel(rs.getInt("tel_cel"));
