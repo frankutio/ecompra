@@ -25,7 +25,7 @@ public boolean equals(Object obj) {
 	private String senha;
 	private String conf_senha;
 	
-	//atribuição de valores
+	
 	public Cliente(){
 
 	}

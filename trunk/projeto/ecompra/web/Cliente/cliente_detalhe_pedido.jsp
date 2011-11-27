@@ -194,7 +194,7 @@
                     <td>&nbsp;</td>
                   </tr>
                   <tr class="fonteItenMenu alinha_centro">
-                    <td height="67" colspan="5" align="center" class="sem_borda"><a href="index_logado.html">
+                    <td height="67" colspan="5" align="center" class="sem_borda"><a href="index_logado.jsp">
                       <input name="button" type="button" value="Cancelar" class="botao_cliente setaLink" />
                     </a></td>
                   </tr>
@@ -205,9 +205,9 @@
                 </table>
             </div>
             <div id="promocao">
-                <img src="/ecompra/public/image/imagens/promocao/promo1.jpg" /><br /><br />
-                <img src="/ecompra/public/image/imagens/promocao/promo2.jpg" /><br /><br />
-                <img src="/ecompra/public/image/imagens/promocao/promo3.jpg" />
+                <img src="/ecompra/public/image/promocao/promo1.jpg" /><br /><br />
+                <img src="/ecompra/public/image/promocao/promo2.jpg" /><br /><br />
+                <img src="/ecompra/public/image/promocao/promo3.jpg" />
             </div>
             <div class="clear"></div>
             <div class="clear"></div>

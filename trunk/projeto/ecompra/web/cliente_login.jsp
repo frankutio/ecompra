@@ -129,7 +129,7 @@
             <div id="conteudo_login">
             <%
                 if (mensagem != null) {
-                    %><div id="mensagem_erro">&nbsp<%=mensagem%></div><%
+            %><div id="mensagem_erro"><%=mensagem%></div><%
                     
                 }
             %>

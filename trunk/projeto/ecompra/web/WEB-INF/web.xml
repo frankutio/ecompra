@@ -12,6 +12,18 @@
         <servlet-name>Login</servlet-name>
         <servlet-class>Controle.Portal.LoginServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>LoginPainel</servlet-name>
+        <servlet-class>Controle.Painel.LoginPainelServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Administrador</servlet-name>
+        <servlet-class>Entidade.Painel.Impl.Administrador</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProdutoServlet</servlet-name>
+        <servlet-class>Controle.Painel.ProdutoServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>IncluirTesteServlet</servlet-name>
         <url-pattern>/Incluir</url-pattern>
@@ -24,12 +36,26 @@
         <servlet-name>Login</servlet-name>
         <url-pattern>/Login</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginPainel</servlet-name>
+        <url-pattern>/LoginPainel</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Administrador</servlet-name>
+        <url-pattern>/Administrador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProdutoServlet</servlet-name>
+        <url-pattern>/ProdutoServlet</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             60
         </session-timeout>
     </session-config>
     <welcome-file-list>
+        <welcome-file>painel_produto_incluir.jsp</welcome-file>
+        <welcome-file>index_painel.jsp</welcome-file>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
 </web-app>

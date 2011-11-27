@@ -129,7 +129,7 @@
             <div id="conteudo_login">
                 <table width="100%" height="392" id="tabela_painel">
                     <tr>
-                        <td height="35" colspan="5" class="fonte_titulo">Carrinho de compras </td>
+                        <th height="35" colspan="5" class="fonte_titulo">Carrinho de compras </th>
                     </tr>
                     <tr class="fonteItenMenu alinha_centro">
                         <td width="12%" height="39" align="center">C&oacute;digo produto </td>

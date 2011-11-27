@@ -1,11 +1,6 @@
 <%@page contentType="text/html" pageEncoding="ISO-8859-1" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%
-    String mensagem = (String) session.getAttribute("msgError");
-    if (mensagem != null) {
-        session.removeAttribute("msgError");
-    }
-%>
+
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -15,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="/ecompra/public/css/geral.css" />
     </head>
     <body class="body">
-        <form method="post" action="/ecompra/Cliente">
+        <form method="post" action="Cliente">
             <input type="hidden" name="operacao" value="cadastro_cliente" />
             <div id="topo">&nbsp;
                 <div id="carrinho"><a href="/ecompra/cliente_carrinho.jsp" class="setaLink"><img src="/ecompra/public/image/icones/ic_carrinho.gif" border="0" /><span class="texto_opcoes">Meu carrinho</span></a></div>
@@ -145,8 +140,8 @@
                         <td colspan="2"><input name="txt_endereco" type="text" value="" size="40" /></td>
                     </tr>
                     <tr >
-                        <td align="right">Estado:<span class="obrigatorio">*</span></td>
-                        <td colspan="2"><input name="txt_estado" type="text" value="" /> UF:<span class="obrigatorio">*</span>      <select name="select_uf" size="1">
+                        <td align="right">Cidade:<span class="obrigatorio">*</span></td>
+                        <td colspan="2"><input name="txt_cidade" type="text" value="" /> UF:<span class="obrigatorio">*</span>      <select name="select_uf" size="1">
                                 <option value="0">- UF - </option>
                                 <option value="1">AC</option>
                                 <option value="4">AL</option>
