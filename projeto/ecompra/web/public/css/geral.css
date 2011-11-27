@@ -1,4 +1,4 @@
-/* CSS Document */
+/* CSS Document PROJETO*/
 
 .body{
     margin-top:0px;
@@ -57,7 +57,7 @@
     margin-left:220px;
     margin-top:25px;
     background-color:#FFFFFF;
-    background-image:url(../imagens/marca_dagua2.gif);
+    background-image:url(../ecompra/public/image/marca_dagua2.gif);
     background-position:right;
     background-repeat:no-repeat;
     border:1px solid #9BBA1E;
@@ -70,7 +70,7 @@
     margin-left:200px;
     margin-top:15px;
     background-color:#FFFFFF;
-    background-image:url(../imagens/marca_dagua2.gif);
+    background-image:url(../ecompra/public/image/marca_dagua2.gif);
     background-position:right;
     background-repeat:no-repeat;
     border:1px solid #9BBA1E;
@@ -465,3 +465,51 @@
     font-weight:bold;
     text-align: center;
 }
+
+/*BOASVINDAS PAINEL*/
+.boas_vindas_painel{
+    color: #9BBA1E;
+    float:left;
+    margin-top:-21px;
+}
+
+/*FORMATA��O DA MODAL---------------------------------------------------------*/
+ 
+
+a {color:#333; text-decoration:none}
+a:hover {color:#ccc; text-decoration:none}
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:absolute;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+}
+
+#boxes #dialog {
+  width:375px; 
+  height:203px;
+}
+
+
+#boxes #dialog2 {
+  background-color:#FFFFFF;
+  width:550px; 
+  height:360px;
+  margin-top:-74px;
+}
+
+.close{
+    display:block;
+}
+
