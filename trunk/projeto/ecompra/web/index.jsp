@@ -1,5 +1,17 @@
 <%@page contentType="text/html" pageEncoding="ISO-8859-1" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%
+    //tratamento msgERROR
+    String mensagem = (String) session.getAttribute("msgError");
+    if (mensagem != null) {
+        session.removeAttribute("msgError");
+    }
+    String msg_sucesso = (String) session.getAttribute("msgSucesso");
+    if (msg_sucesso != null) {
+        session.removeAttribute("msgSucesso");
+    }
+
+%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -125,6 +137,11 @@
             </div>
 
             <div id="conteudo">
+            <%
+               if (msg_sucesso != null) {
+                %><div id="mensagem_erro"><script LANGUAGE="JavaScript" TYPE="text/javascript">alert("<%=msg_sucesso%>")</script></div><%
+                }
+            %>
                 <table width="100%" border="0">
                     <tr align="center">
                         <td height="179"><img src="/ecompra/public/image/produtos/img_001.gif" width="138" height="110" /><br />

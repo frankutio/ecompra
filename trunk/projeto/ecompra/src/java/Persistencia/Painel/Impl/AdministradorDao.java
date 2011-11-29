@@ -9,7 +9,7 @@ import Entidade.Painel.Impl.Administrador;
 import java.sql.*;
 import java.util.ArrayList;
 import Entidade.Painel.*;
-import Persistencia.Portal.Dao;
+import Persistencia.Painel.Dao;
 
 //public class AdministradorDao extends Dao <Administrador> {
 public class AdministradorDao extends Dao<Administrador> {
@@ -19,7 +19,7 @@ public class AdministradorDao extends Dao<Administrador> {
     }
 
     @Override
-    protected Administrador altera(Administrador obj) {
+    protected Administrador alterar(Administrador obj) {
         return null;
     }
 
@@ -65,7 +65,7 @@ public class AdministradorDao extends Dao<Administrador> {
         if( obj.getCpf()==0 ){
 			return incluir(obj);
 		}else{
-			return altera(obj);
+			return alterar(obj);
 		}
     }
 

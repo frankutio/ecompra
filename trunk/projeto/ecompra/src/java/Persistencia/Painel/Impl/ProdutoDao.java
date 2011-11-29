@@ -21,12 +21,13 @@ public class ProdutoDao extends Dao<Produto> {
     }
 
     @Override
-    protected Produto altera(Produto obj) {
+    protected Produto alterar(Produto produto) {
         return null;
     }
 
+
     @Override
-    public Produto delete(Produto obj) {
+    public Produto delete(Produto produto) {
         return null;
     }
 
@@ -66,17 +67,12 @@ public class ProdutoDao extends Dao<Produto> {
 
     @Override
     public Produto save(Produto obj) {
-        if( obj.getCod_produto()==0 ){
-			return incluir(obj);
-		}else{
-			return altera(obj);
-		}
+       return null;
     }
 
     public List<Produto> buscarTodosProdutos() {
         conexao = iniciarConexao();
         String sql = "select * from ecompra.produto";
-
         try {
             //preparando statement para inserção
             PreparedStatement stmt = conexao.prepareStatement(sql);
@@ -106,16 +102,12 @@ public class ProdutoDao extends Dao<Produto> {
         }
     }
 
-    public List<Produto> pesquisarProdutos(){
-        int cod = 0;
-        String nome = null;
-        String fabricante = null;
-
+    public List<Produto> pesquisarProdutos(int cod, String nome, String fabricante){
+        
         conexao = iniciarConexao();
         Produto produto = new Produto();
         String sql = "SELECT * FROM ecompra.produto WHERE " +
-                "cod_produto='"+cod+"' AND nome='"+nome+"' AND fabricante='"+fabricante+"' ;" ;
-
+                "cod_produto='"+cod+"' OR nome='"+nome+"' OR fabricante='"+fabricante+"' ;" ;
         try {
             //preparando statement para inserção
             PreparedStatement stmt = conexao.prepareStatement(sql);
@@ -133,14 +125,11 @@ public class ProdutoDao extends Dao<Produto> {
                 produto.setQuantidade(rs.getInt("quantidade"));
                 produto.setFabricante(rs.getString("fabricante"));
                 
-                cod = produto.getCod_produto();
-                nome = produto.getNome();
-                fabricante = produto.getFabricante();
+                
                 //adicionando obj à lista
                 Produtos.add(produto);
             }
 
-            
             rs.close();
             stmt.close();
             return Produtos;
@@ -150,6 +139,87 @@ public class ProdutoDao extends Dao<Produto> {
         }
     }
 
+    public List<Produto> buscaAlterar(int cod, String nome){
 
+    conexao = iniciarConexao();
+    Produto produto = new Produto();
+    String sql = "SELECT * FROM ecompra.produto WHERE " +
+            "cod_produto='"+cod+"' AND nome='"+nome+"'; " ;
+    try {
+        //preparando statement para inserção
+        PreparedStatement stmt = conexao.prepareStatement(sql);
+        ResultSet rs = stmt.executeQuery(sql);
+
+        List<Produto> Produtos = new ArrayList<Produto>();
+
+        while (rs.next()) {
+            //criando obj ProdutoBean
+
+            produto.setCod_produto(rs.getInt("cod_produto"));
+            produto.setNome(rs.getString("nome"));
+            produto.setDescricao(rs.getString("descricao"));
+            produto.setPreco(rs.getInt("preco"));
+            produto.setQuantidade(rs.getInt("quantidade"));
+            produto.setFabricante(rs.getString("fabricante"));
+
+
+            //adicionando obj à lista
+            Produtos.add(produto);
+        }
+
+        rs.close();
+        stmt.close();
+        return Produtos;
+
+    } catch (SQLException e) {
+        throw new RuntimeException(e);
+    }
+    }
+
+    public List<Produto> alterarProduto(int cod, String nome, String descricao, int preco, int quantidade, String fabricante){
+
+        conexao = iniciarConexao();
+        String sql = "";
+        //update tabela SET campo='valor'  WHERE tabela.campo=valor;
+        sql = "UPDATE ecompra.produto SET nome='"+nome+"', descricao='"+descricao+"', " +
+                "preco='"+preco+"', quantidade='"+quantidade+"', fabricante='"+fabricante+"' " +
+                "WHERE cod_produto='"+cod+"'; ";
+
+        System.out.println(sql);
+        
+        try {
+            //preparando statement para inserção
+            PreparedStatement stmt = conexao.prepareStatement(sql);
+            stmt.executeUpdate(sql);
+
+            stmt.close();
+            return null;
+            
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+}
     
+    public List<Produto> excluirProduto(int cod){
+        conexao = iniciarConexao();
+        Produto produto = new Produto();
+        String sql = "";
+        //update tabela SET campo='valor'  WHERE tabela.campo=valor;
+        sql = "DELETE FROM ecompra.produto WHERE produto.cod_produto="+cod+"; ";
+
+        cod = produto.getCod_produto();
+        System.out.println(sql);
+
+        try {
+            //preparando statement para inserção
+            PreparedStatement stmt = conexao.prepareStatement(sql);
+            stmt.executeUpdate(sql);
+            stmt.close();
+            return null;
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

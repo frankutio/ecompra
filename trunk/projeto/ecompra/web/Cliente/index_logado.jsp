@@ -2,6 +2,19 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page import="Entidade.Portal.Impl.Cliente"%>
 
+<%
+    //tratamento msgERROR
+    String mensagem = (String) session.getAttribute("msgError");
+    if (mensagem != null) {
+        session.removeAttribute("msgError");
+    }
+    String msg_sucesso = (String) session.getAttribute("msgSucesso");
+    if (msg_sucesso != null) {
+        session.removeAttribute("msgSucesso");
+        session.removeAttribute("buscar_produtos");
+    }
+   
+%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -17,10 +30,12 @@
 
         <form method="post" action="trab_diplomacao">
             <div id="topo">&nbsp;
-                <div id="sair"><a href="/ecompra/Login?acao=SAIR" class="setaLink"><img src="/ecompra/public/image/icones/ic_sair.gif" border="0"/><span class="texto_opcoes">Sair</span></a></div>
-                <div id="carrinho"><a href="/ecompra/Cliente/cliente_carrinho_logado.jsp" class="setaLink"><img src="/ecompra/public/image/icones/ic_carrinho.gif" border="0" /><span class="texto_opcoes">Meu carrinho</span></a></div>
-                <div id="cadastro"><a href="/ecompra/Cliente/cliente_cadastro_alterar.jsp"  class="setaLink"><img src="/ecompra/public/image/icones/ic_meu_cadastro.gif" border="0" /><span class="texto_opcoes" >Meu cadastro</span></a></div>
-                <div id="meus_pedidos"><a href="/ecompra/Cliente/cliente_meus_pedidos.jsp" class="setaLink"><img src="/ecompra/public/image/icones/ic_meus_pedidos.gif" border="0"/><span class="texto_opcoes">Meus pedidos</span></a></div>
+                
+                    <div id="sair"><a href="/ecompra/Login?acao=SAIR" class="setaLink"><img src="/ecompra/public/image/icones/ic_sair.gif" border="0"/><span class="texto_opcoes">Sair</span></a></div>
+                    <div id="carrinho"><a href="/ecompra/Cliente/cliente_carrinho_logado.jsp" class="setaLink"><img src="/ecompra/public/image/icones/ic_carrinho.gif" border="0" /><span class="texto_opcoes">Meu carrinho</span></a></div>
+                    <div id="cadastro"><a href="/ecompra/Cliente/cliente_cadastro_alterar.jsp"  class="setaLink"><img src="/ecompra/public/image/icones/ic_meu_cadastro.gif" border="0" /><span class="texto_opcoes" >Meu cadastro</span></a></div>
+                    <div id="meus_pedidos"><a href="/ecompra/Cliente/cliente_meus_pedidos.jsp" class="setaLink"><img src="/ecompra/public/image/icones/ic_meus_pedidos.gif" border="0"/><span class="texto_opcoes">Meus pedidos</span></a></div>
+              
             </div>
             <div class="clear"></div>
             <div id="logo">
@@ -39,7 +54,7 @@
                 </p>
             </div>
             <div class="clear"></div>
-            <div id="localizador"><span class="texto_localizador">Bem vindo <%=((Cliente) session.getAttribute("usuarioLogado")).getNome()%>! HOME</span></div>
+            <div id="localizador"><span class="texto_localizador">Bem-vindo ${usuarioLogado.nome}! HOME</span></div>
             <div id="banner_topo"><img src="/ecompra/public/image/promocao/banner_super.png" border="0"  /></div>
 
             <div id="menu_lateral">
@@ -132,6 +147,12 @@
             </div>
 
             <div id="conteudo">
+   <%
+      if (msg_sucesso!= null){
+        //request.getSession().removeAttribute("operacao");
+        %><div id="mensagem_erro"><script LANGUAGE="JavaScript" TYPE="text/javascript">alert("<%=msg_sucesso%>")</script></div><%
+    }
+   %>
                 <table width="100%" border="0">
                     <tr align="center">
                         <td height="179"><img src="/ecompra/public/image/produtos/img_001.gif" width="138" height="110" /><br />
