@@ -86,7 +86,7 @@ public abstract class Dao<T> {
 
     protected abstract T incluir(T obj);
 
-    protected abstract T altera(T obj);
+    protected abstract T alterar(T obj);
 
     /**
      * Deleta o objeto

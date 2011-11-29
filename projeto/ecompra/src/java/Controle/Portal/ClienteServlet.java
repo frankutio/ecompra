@@ -2,8 +2,10 @@ package Controle.Portal;
 
 import Entidade.Portal.Impl.Cliente;
 import Persistencia.Portal.Impl.ClienteDao;
+import View.Mensagens;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -53,45 +55,54 @@ public class ClienteServlet extends HttpServlet {
 
         //instanciando objeto de entidade
         Cliente cliente = new Cliente();
-        cliente.setCpf(Integer.parseInt(cpf));
-        cliente.setNome(nome);
-        cliente.setEndereco(endereco);
-        cliente.setCidade(cidade);
-        cliente.setUf(uf);
-        cliente.setTel_fixo(Integer.parseInt(tel_fixo));
-        cliente.setTel_fixo(Integer.parseInt(tel_cel));
-        cliente.setEmail(email);
-        cliente.setSenha(senha);
-        cliente.setSexo(sexo);
-        cliente.setEstado_civil(estado_civil);
-        cliente.setEmail(email);
-        cliente.setLogin(login);
-        cliente.setSenha(senha);
-        cliente.setConf_senha(conf_senha);
+            
+            cliente.setNome(nome);
+            cliente.setEndereco(endereco);
+            cliente.setCidade(cidade);
+            cliente.setUf(uf);
+            cliente.setTel_fixo(Integer.parseInt(tel_fixo));
+            cliente.setTel_cel(Integer.parseInt(tel_cel));
+            cliente.setEmail(email);
+            cliente.setSenha(senha);
+            cliente.setSexo(sexo);
+            cliente.setEstado_civil(estado_civil);
+            cliente.setEmail(email);
+            cliente.setLogin(login);
+            cliente.setSenha(senha);
+            cliente.setConf_senha(conf_senha);
 
         //INCLUIR CLIENTE
         if (operacao.equals("cadastro_cliente")) {
+            System.out.println("Controle Acionado com Operacao: " + operacao);
+            //dentro de cada operacao pois o campo pode estar desabilitado
+            cliente.setCpf(Integer.parseInt(cpf));
             //instanciando objeto Dao
             ClienteDao dao = new ClienteDao();
-           // dao.save(cliente);
+           
            dao.incluir(cliente);
-
+           request.getSession().setAttribute("msgSucesso",Mensagens.msgSucessoIncluirCliente);
             
-            proximaPagina = "index.jsp";
+           proximaPagina = "index.jsp";
+        }else if (operacao.equals("alterar_cliente")){
+            System.out.println("Controle Acionado com Operacao: " + operacao);
+
+            String cpf_cliente = request.getParameter("cpf_cliente");
+            cliente.setCpf(Integer.parseInt(cpf_cliente));
+
+            ClienteDao.getInstance().alterarCliente(cliente.getCpf(), cliente.getNome(),cliente.getEndereco(),cliente.getCidade(),cliente.getUf(),cliente.getTel_fixo(),cliente.getTel_cel(),cliente.getSexo(),cliente.getEstado_civil(),cliente.getEmail(),cliente.getLogin(),cliente.getSenha(),cliente.getConf_senha());
+
+            //COMO PASSAR OS NOVOS VALORES DOS CAMPOS DO CLIENTE??
+            //List<Cliente> busca_alterar = ClienteDao.getInstance().buscaAlterar(cliente.getCpf());
+            //request.getSession().setAttribute("usuarioLogado", busca_alterar);
+            request.getSession().setAttribute("msgSucesso",Mensagens.msgSucessoAlterarCliente);
+            
+            proximaPagina = "/Cliente/index_logado.jsp";
+
         }else if (operacao.equals("editar_cliente")){
             //EDITAR CLIENTE
+
         }
 
-
-
-        //testando se foi adicionado na entidade
-        out.println("<html>");
-        out.println("<body>");
-        out.println("Cliente " + cliente.getNome() + ", adicionado com sucesso");
-        out.println("</body>");
-        out.println("</html>");
-        out.flush();
-        out.close();
 
 
 

@@ -1,6 +1,5 @@
 <%@page language="java" contentType="text/html;charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@page import="Entidade.Portal.Impl.Cliente"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -35,7 +34,7 @@
             </div>
 
             <div class="clear"></div>
-            <div id="localizador"><span class="texto_localizador">Bem vindo <%=((Cliente) session.getAttribute("usuarioLogado")).getNome()%>! HOME/MEUS PEDIDOS</span></div>
+            <div id="localizador"><span class="texto_localizador">Bem vindo  ${usuarioLogado.nome}! HOME/MEUS PEDIDOS</span></div>
             <div id="banner_topo"><img src="/ecompra/public/image/promocao/banner_super.png" border="0"  /></div>
 
             <div id="menu_lateral">

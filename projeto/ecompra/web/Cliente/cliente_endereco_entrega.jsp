@@ -34,7 +34,7 @@
                 </p>
             </div>
             <div class="clear"></div>
-            <div id="localizador"><span class="texto_localizador">Bem vindo <%=((Cliente) session.getAttribute("usuarioLogado")).getNome()%>! HOME/ENDERE&Ccedil;O DE ENTREGA</span></div>
+            <div id="localizador"><span class="texto_localizador">Bem-vindo <%=((Cliente) session.getAttribute("usuarioLogado")).getNome()%>! HOME/ENDERE&Ccedil;O DE ENTREGA</span></div>
             <div id="menu_lateral">
                 <table width="100%" border="0">
                     <tr>

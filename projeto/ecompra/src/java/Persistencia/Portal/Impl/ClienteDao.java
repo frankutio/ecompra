@@ -3,8 +3,8 @@ package Persistencia.Portal.Impl;
 import Entidade.Portal.Impl.Cliente;
 import java.sql.*;
 import java.util.ArrayList;
-import Entidade.Portal.*;
 import Persistencia.Portal.Dao;
+import java.util.List;
 
 //public class ClienteDao extends Dao <Cliente> {
 public class ClienteDao extends Dao<Cliente> {
@@ -12,6 +12,12 @@ public class ClienteDao extends Dao<Cliente> {
     //construtor
     public ClienteDao() {
     }
+    private static ClienteDao instance = new ClienteDao();
+
+    public static ClienteDao getInstance() {
+        return instance;
+    }
+
 
     @Override
     protected Cliente altera(Cliente obj) {
@@ -34,8 +40,6 @@ public class ClienteDao extends Dao<Cliente> {
                 + " values (?,?,?,?,?,?,?,?,?,?,?,?,?)";
 
         System.out.println(sql);
-
-        //grava no banco
         conexao = iniciarConexao();
         try {
             // prepared statement para inserção
@@ -102,7 +106,67 @@ public class ClienteDao extends Dao<Cliente> {
             throw new RuntimeException(e);
         }
     }
+    public List<Cliente> alterarCliente(int cpf, String nome, String endereco, String cidade,String uf, int tel_fixo, int tel_cel, String sexo, String estado_civil, String email, String login, String senha, String conf_senha){
 
+        conexao = iniciarConexao();
+        String sql = "UPDATE ecompra.cliente SET nome='"+nome+"', endereco='"+endereco+"', " +
+                "cidade='"+cidade+"', uf='"+uf+"', tel_fixo='"+tel_fixo+"', " +
+                "tel_cel='"+tel_cel+"', sexo='"+sexo+"', estado_civil='"+estado_civil+"', " +
+                "email='"+email+"', login='"+login+"', senha='"+senha+"', " +
+                "conf_senha='"+conf_senha+"'" +
+                " WHERE cpf_cliente='"+cpf+"'; ";
+
+        System.out.println(sql);
+        try {
+            //preparando statement para inserção
+            PreparedStatement stmt = conexao.prepareStatement(sql);
+            stmt.executeUpdate(sql);
+
+            stmt.close();
+            return null;
+            
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public ArrayList<Cliente> buscaAlterar(int cpf) {
+
+        String sql = "select * from ecompra.cliente WHERE cpf_cliente='"+cpf+"'";
+        conexao = iniciarConexao();
+        try {
+            //preparando statement para inserção
+            PreparedStatement stmt = conexao.prepareStatement(sql);
+            ResultSet rs = stmt.executeQuery(sql);
+
+            ArrayList<Cliente> clientes = new ArrayList<Cliente>();
+
+            while (rs.next()) {
+                //criando obj Entidade Cliente
+                Cliente cliente = new Cliente();
+                cliente.setCpf(rs.getInt("cpf_cliente"));
+                cliente.setNome(rs.getString("nome"));
+                cliente.setEndereco(rs.getString("endereco"));
+                cliente.setCidade(rs.getString("cidade"));
+                cliente.setUf(rs.getString("uf"));
+                cliente.setTel_fixo(rs.getInt("tel_fixo"));
+                cliente.setTel_cel(rs.getInt("tel_cel"));
+                cliente.setSexo(rs.getString("sexo"));
+                cliente.setEstado_civil(rs.getString("estado_civil"));
+                cliente.setEmail(rs.getString("email"));
+                cliente.setLogin(rs.getString("login"));
+                cliente.setSenha(rs.getString("senha"));
+                cliente.setConf_senha(rs.getString("conf_senha"));
+                //adicionando obj à lista
+                clientes.add(cliente);
+            }
+            rs.close();
+            stmt.close();
+            return clientes;
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
     public Cliente getByLogin(String login) {
 
         conexao = iniciarConexao();
@@ -146,29 +210,6 @@ public class ClienteDao extends Dao<Cliente> {
             return null;
         }
     }
-//   TESTE INCLUSAO CLIENTE NA CRUD_USUARIO
-//    public void incluirCliente(Cliente cliente) {
-//        conexao = iniciarConexao();
-//
-//        String sql = "insert into crud_usuario.tb_usuario (cpf,email,senha) values (?,?,?)";
-//
-//        try {
-//            // prepared statement para inserção
-//            PreparedStatement stmt = conexao.prepareStatement(sql);
-//
-//            // seta os valores
-//            stmt.setInt(1, cliente.getCpf());
-//            stmt.setString(2, cliente.getEmail());
-//            stmt.setString(3, cliente.getSenha());
-//
-//            // executa
-//            stmt.execute();
-//            stmt.close();
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        }
-//    }
 
-    //metodo main
 
 }
