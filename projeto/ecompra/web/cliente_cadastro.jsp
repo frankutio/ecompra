@@ -209,6 +209,10 @@ function validaCampoObrigatorio(form){
                             </select></td>
                     </tr>
                     <tr >
+                        <td align="right">Cep:</td>
+                        <td colspan="2"><input  lang="1" name="txt_cep" type="text" value="" /></td>
+                    </tr>
+                    <tr >
                         <td align="right">Telefone fixo:</td>
                         <td colspan="2"><input  lang="0" name="txt_tel_fixo" type="text" value="" /></td>
                     </tr>

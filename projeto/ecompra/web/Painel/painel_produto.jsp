@@ -56,7 +56,7 @@ else
     <div class="clear"></div>
 <div id="menu_super">
     <p class="barNav">&nbsp;
-        <div class="boas_vindas_painel">&nbsp;Bem vindo <%=((Administrador) session.getAttribute("usuarioLogado")).getNome()%>!</div>
+        <div class="boas_vindas_painel">&nbsp;Bem vindo ${usuarioLogado.nome}!</div>
         <!--
         <a href="caminho/arquivo.html" >ACESSÓRIOS E PERIFÉRICOS</a>
         <a href="caminho/arquivo.html">ARMAZENAMENTO</a>

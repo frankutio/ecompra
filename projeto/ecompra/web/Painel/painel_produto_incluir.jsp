@@ -22,9 +22,10 @@
 <link rel="stylesheet" type="text/css" href="/ecompra/public/css/geral.css" />
 </head>
 <body class="body">
-<form method="post" action="/ecompra/ProdutoServlet">
-<input type="hidden" name="operacao" value="incluir_produto" />
-    
+
+ <!--F O R M  --->
+<form name="cadProd" action="/ecompra/ProdutoServlet?operacao=incluir_produto" method="post" enctype="multipart/form-data">
+
 <div id="topo">&nbsp;
     <div id="sair"><a href="/ecompra/LoginPainel?acao=SAIR" class="setaLink"><img src="/ecompra/public/image/icones/ic_sair.gif" border="0"  /><span class="texto_opcoes">Sair</span></a></div>
     <div id="relatorios"><a href="/ecompra/Painel/painel_relatorios.jsp" class="setaLink"><img src="/ecompra/public/image/icones/ic_relatorios.gif" border="0"  /><span class="texto_opcoes">Relatórios</span></a></div>
@@ -38,15 +39,8 @@
 <div class="clear"></div>
   <div id="menu_super">
     <p class="barNav">&nbsp;
-	<div class="boas_vindas_painel">&nbsp;Bem vindo <%=((Administrador) session.getAttribute("usuarioLogado")).getNome()%>!</div>
-        <!--
-	<a href="caminho/arquivo.html" >ACESSÓRIOS E PERIFÉRICOS</a>
-	<a href="caminho/arquivo.html">ARMAZENAMENTO</a>
-	<a href="caminho/arquivo.html">IMPRESS&Atilde;O E IMAGEM </a>
-	<a href="caminho/arquivo.html">MONITORES</a>
-	<a href="caminho/arquivo.html">COMPUTADORES</a>
-	<a href="caminho/arquivo.html" >NOTEBOOKS </a>
-	-->
+	<div class="boas_vindas_painel">&nbsp;Bem vindo ${usuarioLogado.nome}!</div>
+       
 	</p>
   </div>
        
@@ -57,6 +51,10 @@
             %><div id="mensagem_erro"><script LANGUAGE="JavaScript" TYPE="text/javascript">alert("<%=msg_sucesso%>")</script></div><%
         }
         %>
+        <c:if test="${Error != null}">
+            <div id="mensagem_erro">Ops! parace que houve um erro ao tentar carregar o arquivo!</div><br />
+            Erro: ${Error}
+        </c:if> 
     <table width="100%" height="470" id="tabela_painel_control">
       <tr>
         <th height="35" colspan="2">Incluir novo produto </th>
@@ -86,8 +84,8 @@
         <td height="46"><input name="txt_fabricante" type="text" value="" size="40" /></td>
       </tr>
       <tr  >
-        <td align="right">Imagem:<span class="obrigatorio">*</span></td>
-        <td height="46"><input name="imagem" type="text" value="" />&nbsp;<input type="button" value="Inserir imagem" class="botao setaLink"  title="Inserir imagem do produto"   /></td>
+        <td align="right">Foto:<span class="obrigatorio">*</span></td>
+        <td height="46"><input name="foto" type="file"/>&nbsp;</td>
       </tr>
       <tr>
         <td  height="22" colspan="3"><span class="obrigatorio">&nbsp;(*) Campos de preenchimento obrigat&oacute;rio.</span> </td>
@@ -104,5 +102,8 @@
   <div class="clear"></div>
 		<div id="icone_tree_painel"><img src="/ecompra/public/image/tree_painel.gif" class="setaLink" title="O e-Compra possui responsabilidade ambiental!"/></div>
 </form>
+
+
+   
 </body>
 </html>

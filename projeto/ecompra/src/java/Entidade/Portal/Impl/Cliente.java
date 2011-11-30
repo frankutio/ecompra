@@ -16,6 +16,7 @@ public boolean equals(Object obj) {
 	private String endereco;
 	private String cidade;
 	private String uf;
+        private int cep;
 	private int tel_fixo;	
 	private int tel_cel;
 	private String sexo;
@@ -30,13 +31,14 @@ public boolean equals(Object obj) {
 
 	}
 	
-	public Cliente( int cpf, String nome, String endereco, String estado, String uf, int tel_fixo, int tel_cel,
+	public Cliente( int cpf, String nome, String endereco, String estado, String uf, int cep, int tel_fixo, int tel_cel,
 		 String sexo, String estado_civil, String email, String login, String senha,String conf_senha ){
 		this.cpf = cpf;
 		this.nome = nome;
 		this.endereco = endereco;
 		this.cidade = estado;
 		this.uf = uf;
+                this.cep = cep;
 		this.tel_fixo = tel_fixo;
 		this.tel_cel = tel_cel;
 		this.sexo = sexo;
@@ -76,6 +78,15 @@ public boolean equals(Object obj) {
 	public void setUf(String uf) {
 		this.uf = uf;
 	}
+
+        public int getCep() {
+            return cep;
+        }
+
+        public void setCep(int cep) {
+            this.cep = cep;
+        }
+
 	public int getTel_fixo() {
 		return tel_fixo;
 	}

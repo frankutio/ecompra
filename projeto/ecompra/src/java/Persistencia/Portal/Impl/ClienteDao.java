@@ -35,9 +35,9 @@ public class ClienteDao extends Dao<Cliente> {
         String sql = "";
         //insert into tb_usuario values (null,'nome','nome','nome')
         sql = "insert into ecompra.cliente (cpf_cliente, nome, "
-                + "endereco, cidade, uf, tel_fixo, tel_cel, sexo, "
+                + "endereco, cidade, uf, cep, tel_fixo, tel_cel, sexo, "
                 + "estado_civil, email, login, senha, conf_senha)"
-                + " values (?,?,?,?,?,?,?,?,?,?,?,?,?)";
+                + " values (?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 
         System.out.println(sql);
         conexao = iniciarConexao();
@@ -51,14 +51,15 @@ public class ClienteDao extends Dao<Cliente> {
             stmt.setString(3, usuario.getEndereco());
             stmt.setString(4, usuario.getCidade());
             stmt.setString(5, usuario.getUf());
-            stmt.setInt(6, usuario.getTel_fixo());
-            stmt.setInt(7, usuario.getTel_cel());
-            stmt.setString(8, usuario.getSexo());
-            stmt.setString(9, usuario.getEstado_civil());
-            stmt.setString(10, usuario.getEmail());
-            stmt.setString(11, usuario.getLogin());
-            stmt.setString(12, usuario.getSenha());
-            stmt.setString(13, usuario.getConf_senha());
+            stmt.setInt(6, usuario.getCep());
+            stmt.setInt(7, usuario.getTel_fixo());
+            stmt.setInt(8, usuario.getTel_cel());
+            stmt.setString(9, usuario.getSexo());
+            stmt.setString(10, usuario.getEstado_civil());
+            stmt.setString(11, usuario.getEmail());
+            stmt.setString(12, usuario.getLogin());
+            stmt.setString(13, usuario.getSenha());
+            stmt.setString(14, usuario.getConf_senha());
 
             // executa
             stmt.execute();
@@ -106,11 +107,11 @@ public class ClienteDao extends Dao<Cliente> {
             throw new RuntimeException(e);
         }
     }
-    public List<Cliente> alterarCliente(int cpf, String nome, String endereco, String cidade,String uf, int tel_fixo, int tel_cel, String sexo, String estado_civil, String email, String login, String senha, String conf_senha){
+    public List<Cliente> alterarCliente(int cpf, String nome, String endereco, String cidade,String uf, int cep, int tel_fixo, int tel_cel, String sexo, String estado_civil, String email, String login, String senha, String conf_senha){
 
         conexao = iniciarConexao();
         String sql = "UPDATE ecompra.cliente SET nome='"+nome+"', endereco='"+endereco+"', " +
-                "cidade='"+cidade+"', uf='"+uf+"', tel_fixo='"+tel_fixo+"', " +
+                "cidade='"+cidade+"', uf='"+uf+"', cep='"+cep+"', tel_fixo='"+tel_fixo+"', " +
                 "tel_cel='"+tel_cel+"', sexo='"+sexo+"', estado_civil='"+estado_civil+"', " +
                 "email='"+email+"', login='"+login+"', senha='"+senha+"', " +
                 "conf_senha='"+conf_senha+"'" +
@@ -149,6 +150,7 @@ public class ClienteDao extends Dao<Cliente> {
                 cliente.setEndereco(rs.getString("endereco"));
                 cliente.setCidade(rs.getString("cidade"));
                 cliente.setUf(rs.getString("uf"));
+                cliente.setCep(rs.getInt("cep"));
                 cliente.setTel_fixo(rs.getInt("tel_fixo"));
                 cliente.setTel_cel(rs.getInt("tel_cel"));
                 cliente.setSexo(rs.getString("sexo"));
@@ -186,6 +188,7 @@ public class ClienteDao extends Dao<Cliente> {
                     usr.setEndereco(rs.getString("endereco"));
                     usr.setCidade(rs.getString("cidade"));
                     usr.setUf(rs.getString("uf"));
+                    usr.setCep(rs.getInt("cep"));
                     usr.setTel_fixo(rs.getInt("tel_fixo"));
                     usr.setTel_cel(rs.getInt("tel_cel"));
                     usr.setSexo(rs.getString("sexo"));

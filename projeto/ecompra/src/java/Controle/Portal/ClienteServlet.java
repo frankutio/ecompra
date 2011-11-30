@@ -44,6 +44,7 @@ public class ClienteServlet extends HttpServlet {
         String endereco = request.getParameter("txt_endereco");
         String cidade = request.getParameter("txt_cidade");
         String uf = request.getParameter("select_uf");
+        String cep = request.getParameter("txt_cep");
         String tel_fixo = request.getParameter("txt_tel_fixo");
         String tel_cel = request.getParameter("txt_tel_cel");
         String sexo = request.getParameter("radio");
@@ -60,6 +61,7 @@ public class ClienteServlet extends HttpServlet {
             cliente.setEndereco(endereco);
             cliente.setCidade(cidade);
             cliente.setUf(uf);
+            cliente.setCep(Integer.parseInt(cep));
             cliente.setTel_fixo(Integer.parseInt(tel_fixo));
             cliente.setTel_cel(Integer.parseInt(tel_cel));
             cliente.setEmail(email);
@@ -74,12 +76,13 @@ public class ClienteServlet extends HttpServlet {
         //INCLUIR CLIENTE
         if (operacao.equals("cadastro_cliente")) {
             System.out.println("Controle Acionado com Operacao: " + operacao);
-            //dentro de cada operacao pois o campo pode estar desabilitado
+            
             cliente.setCpf(Integer.parseInt(cpf));
-            //instanciando objeto Dao
+            
             ClienteDao dao = new ClienteDao();
            
            dao.incluir(cliente);
+           
            request.getSession().setAttribute("msgSucesso",Mensagens.msgSucessoIncluirCliente);
             
            proximaPagina = "index.jsp";
@@ -89,7 +92,7 @@ public class ClienteServlet extends HttpServlet {
             String cpf_cliente = request.getParameter("cpf_cliente");
             cliente.setCpf(Integer.parseInt(cpf_cliente));
 
-            ClienteDao.getInstance().alterarCliente(cliente.getCpf(), cliente.getNome(),cliente.getEndereco(),cliente.getCidade(),cliente.getUf(),cliente.getTel_fixo(),cliente.getTel_cel(),cliente.getSexo(),cliente.getEstado_civil(),cliente.getEmail(),cliente.getLogin(),cliente.getSenha(),cliente.getConf_senha());
+            ClienteDao.getInstance().alterarCliente(cliente.getCpf(), cliente.getNome(),cliente.getEndereco(),cliente.getCidade(),cliente.getUf(), cliente.getCep(), cliente.getTel_fixo(),cliente.getTel_cel(),cliente.getSexo(),cliente.getEstado_civil(),cliente.getEmail(),cliente.getLogin(),cliente.getSenha(),cliente.getConf_senha());
 
             //COMO PASSAR OS NOVOS VALORES DOS CAMPOS DO CLIENTE??
             //List<Cliente> busca_alterar = ClienteDao.getInstance().buscaAlterar(cliente.getCpf());
