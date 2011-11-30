@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
     <servlet>
-        <servlet-name>IncluirTesteServlet</servlet-name>
-        <servlet-class>Controle.Portal.IncluirTesteServlet</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>ClienteServlet</servlet-name>
         <servlet-class>Controle.Portal.ClienteServlet</servlet-class>
     </servlet>
@@ -24,10 +20,18 @@
         <servlet-name>ProdutoServlet</servlet-name>
         <servlet-class>Controle.Painel.ProdutoServlet</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>IncluirTesteServlet</servlet-name>
-        <url-pattern>/Incluir</url-pattern>
-    </servlet-mapping>
+    <servlet>
+        <servlet-name>LoginFServlet</servlet-name>
+        <servlet-class>Controle.Portal.LoginFServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FiltroProd</servlet-name>
+        <servlet-class>Controle.Upload.FiltroProd</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UploadArquivo</servlet-name>
+        <servlet-class>Controle.Upload.UploadArquivo</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ClienteServlet</servlet-name>
         <url-pattern>/Cliente</url-pattern>
@@ -48,14 +52,25 @@
         <servlet-name>ProdutoServlet</servlet-name>
         <url-pattern>/ProdutoServlet</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginFServlet</servlet-name>
+        <url-pattern>/LoginF</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FiltroProd</servlet-name>
+        <url-pattern>/FiltroProd</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UploadArquivo</servlet-name>
+        <url-pattern>/UpArq</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             60
         </session-timeout>
     </session-config>
     <welcome-file-list>
-       
         <welcome-file>index.jsp</welcome-file>
-         <welcome-file>index_painel.jsp</welcome-file>
+        <welcome-file>index_painel.jsp</welcome-file>
     </welcome-file-list>
 </web-app>

@@ -15,6 +15,8 @@ public class Produto extends Entidade{
         private int preco;
         private int quantidade;
         private String fabricante;
+        private String foto;
+        private String arquivo;
 
         public Produto(){
 
@@ -77,7 +79,22 @@ public class Produto extends Entidade{
     public void setQuantidade(int quantidade) {
         this.quantidade = quantidade;
     }
-        
-        
+
+    public String getArquivo() {
+        return arquivo;
+    }
+
+    public void setArquivo(String arquivo) {
+        this.arquivo = arquivo;
+    }
+
+    public String getFoto() {
+        return foto;
+    }
+
+    public void setFoto(String foto) {
+        this.foto = foto;
+    }
+
 
 }

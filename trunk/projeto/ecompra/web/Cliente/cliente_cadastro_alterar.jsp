@@ -172,7 +172,7 @@
                         <td colspan="2">
                             <input lang="1" name="txt_cidade" type="text" value="${usuarioLogado.cidade}" />&nbsp;&nbsp;UF:<span class="obrigatorio">*</span>
                             <select lang="0" name="select_uf" size="1">
-                                <option value="">${usuarioLogado.uf}</option>
+                                <option value="${usuarioLogado.uf}">[${usuarioLogado.uf}]</option>
                                 <option value="AC">AC</option>
                                 <option value="AL">AL</option>
                                 <option value="AM">AM</option>
@@ -201,6 +201,10 @@
                                 <option value="SP">SP</option>
                                 <option value="TO">TO</option>
                             </select></td>
+                    </tr>
+                    <tr >
+                        <td align="right">Cep:</td>
+                        <td colspan="2"><input lang="0" name="txt_cep" type="text" value="${usuarioLogado.cep}" /></td>
                     </tr>
                     <tr >
                         <td align="right">Telefone fixo:</td>

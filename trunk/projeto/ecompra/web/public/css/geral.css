@@ -466,14 +466,15 @@
     text-align: center;
 }
 
-/*BOASVINDAS PAINEL*/
+/*BOASVINDAS PAINEL-----------------------------------*/
+
 .boas_vindas_painel{
     color: #9BBA1E;
     float:left;
     margin-top:-21px;
 }
 
-/*FORMATA��O DA MODAL---------------------------------------------------------*/
+/*FORMATACAO DA MODAL---------------------------------------------------------*/
  
 
 a {color:#333; text-decoration:none}
@@ -513,3 +514,35 @@ a:hover {color:#ccc; text-decoration:none}
     display:block;
 }
 
+/*NOVAS CLASSES--------------------------------------------*/
+
+.vlr_promo{
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#9bba1e;
+	}
+	
+.titulo_prod{
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333333;
+	}
+	
+.botao_cliente_comprar{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#000;
+	background-color:#9BBA1E;
+	height:40px;
+	width:120px;
+	text-decoration: none;
+	text-align:center;
+	border-radius: 5px;
+	border:solid #999999 2px;
+	}
+fieldset{
+	border-color:#9BBA1E;
+	}

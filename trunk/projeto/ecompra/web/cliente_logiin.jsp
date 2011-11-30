@@ -15,11 +15,11 @@
         <link rel="stylesheet" type="text/css" href="/ecompra/public/css/geral.css" />
     </head>
     <body class="body">
-        <form method="post" action="Login">
+        <form method="post" action="LoginF">
             <div id="topo">&nbsp;
                 <div id="carrinho"><a href="/ecompra/cliente_carrinho.jsp" class="setaLink"><img src="/ecompra/public/image/icones/ic_carrinho.gif" border="0" /><span class="texto_opcoes">Meu carrinho</span></a></div>
                 <div id="cadastro"><a href="/ecompra/cliente_cadastro.jsp"  class="setaLink"><img src="/ecompra/public/image/icones/ic_cadastro.gif" border="0" /><span class="texto_opcoes" >Cadastre-se aqui!</span></a></div>
-                <div id="login"><a href="/ecompra/cliente_login.jsp" class="setaLink"><img src="/ecompra/public/image/icones/ic_login.gif" border="0"/><span class="texto_opcoes">Login</span></a></div>
+                <div id="login"><a href="/ecompra/cliente_logiin.jsp" class="setaLink"><img src="/ecompra/public/image/icones/ic_login.gif" border="0"/><span class="texto_opcoes">Login</span></a></div>
             </div>
             <div class="clear"></div>
             <div id="logo"><a href="/ecompra/index.jsp"><img src="/ecompra/public/image/logo3.gif" border="0" title="Retornar para a loja!" class="setaLink"  /></a></div>
@@ -130,7 +130,7 @@
             <%
                 if (mensagem != null) {
             %><div id="mensagem_erro"><%=mensagem%></div><%
-                    
+
                 }
             %>
                 <table width="100%" border="0" id="tabela_login">

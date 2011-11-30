@@ -142,7 +142,7 @@
                         <td height="40" align="center"><input name="textarea22" type="text" value="" size="5" /></td>
                         <td height="40">&nbsp;</td>
                         <td><input name="textarea2" type="text" value="" size="5" /></td>
-                        <td><img src="/ecompra/public/image/icones/ic_excluir.gif" width="28" height="36" /></td>
+                        <td><a href="#"><img src="/ecompra/public/image/icones/ic_excluir.gif" width="28" height="36" title="Excluir produto do carrinho"/></a></td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr class="fonteItenMenu alinha_centro">
@@ -173,7 +173,7 @@
             </div>
             <div class="clear"></div>
             <div class="clear"></div>
-            <div id="icone_tree"><a href="#"><img src="/ecompra/public/image//tree.png" class="setaLink" title="O e-Compra possui reponsabilidade ambiental!"  /></a></div>
+            <div id="icone_tree"><a href="#"><img src="/ecompra/public/image/tree.png" class="setaLink" title="O e-Compra possui reponsabilidade ambiental!"  /></a></div>
             <div id="rodape" class="fonteItenMenu setaLink">e-compra &reg;</div>
         </form>
     </body>
