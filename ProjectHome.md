@@ -1,0 +1,1 @@
+Projeto de loja virtual em Java Web.
